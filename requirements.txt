@@ -1,0 +1,6 @@
+tqdm~=4.63.0
+pandas~=1.4.1
+spacy~=3.2.3
+numpy~=1.22.3
+pandarallel~=1.6.1
+pyspark

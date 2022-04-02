@@ -1,0 +1,51 @@
+# location of training data
+trainFileList = laptops_data_train_IOB.txt
+# location of test data
+testFile = laptops_data_test_IOB.txt
+# where to store the saved model
+serializeTo = ner.model.ser.gz
+
+type = crf
+
+wordFunction = edu.stanford.nlp.process.AmericanizeFunction
+
+useDistSim = false
+
+# establish the data file format
+map = word=0,answer=1
+
+saveFeatureIndexToDisk = true
+
+useClassFeature=true
+useWord=true
+useNGrams=true
+noMidNGrams=true
+maxNGramLeng=6
+usePrev=true
+useNext=true
+useLongSequences=true
+useSequences=true
+usePrevSequences=true
+maxLeft=1
+useTypeSeqs=true
+useTypeSeqs2=true
+useTypeySequences=true
+useOccurrencePatterns=true
+useLastRealWord=true
+useNextRealWord=true
+normalize=true
+wordShape=chris2useLC
+useDisjunctive=true
+disjunctionWidth=5
+entitySubclassification=IOB2
+retainEntitySubclassification=true
+mergeTags=true
+readerAndWriter=edu.stanford.nlp.sequences.ColumnDocumentReaderAndWriter
+
+useObservedSequencesOnly=true
+
+useQN = true
+QNsize = 25
+
+# makes it go faster
+featureDiffThresh=0.05

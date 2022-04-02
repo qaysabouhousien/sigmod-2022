@@ -1,0 +1,3743 @@
+1 TB HDD	Disk
+Laptop	Category
+39.62 cm (15.6 inch) 	Dim
+Lenovo	Brand
+64 bit Windows 10	OS
+Ideapad	Model
+4 GB DDR4 	RAM
+Intel Core i3 Processor (7th Gen)	Processor
+
+64 bit Windows 10	OS
+Laptop	Category
+39.62 cm (15.6 inch) 	Dim
+Ideapad	Model
+Lenovo	Brand
+4 GB DDR4 	RAM
+Intel Core i3 Processor (7th Gen)	Processor
+1 TB HDD	Disk
+
+HP	Brand
+64 bit Windows 10	OS
+35.56 cm (14 inch) 	Dim
+8 GB DDR4 	RAM
+Intel Core i3 Processor (7th Gen)	Processor
+EliteBook	Model
+256 GB SSD	Disk
+Laptop	Category
+
+4 GB DDR4 	RAM
+Vostro	Model
+Intel Core i3 Processor (8th Gen)	Processor
+Laptop	Category
+1 TB HDD	Disk
+Dell	Brand
+Linux/Ubuntu	OS
+35.56 cm (14 inch) 	Dim
+
+Zbook	Model
+HP	Brand
+Laptop	Category
+8 GB DDR4 	RAM
+Intel Core i5 Processor (8th Gen)	Processor
+35.56 cm (14 inch) 	Dim
+64 bit Windows 10	OS
+1 TB HDD	Disk
+
+Lenovo	Brand
+Laptop	Category
+1 TB HDD	Disk
+Ideapad	Model
+Intel Core i5 Processor (8th Gen)	Processor
+64 bit Windows 10	OS
+39.62 cm (15.6 inch) 	Dim
+8 GB DDR4 	RAM
+
+Lenovo	Brand
+39.62 cm (15.6 inch) 	Dim
+Intel Core i3 Processor (7th Gen)	Processor
+Ideapad	Model
+8 GB DDR4 	RAM
+64 bit Windows 10	OS
+Laptop	Category
+1 TB HDD	Disk
+
+8 GB DDR4 	RAM
+Laptop	Category
+Intel Core i5 Processor (9th Gen)	Processor
+64 bit Windows 10	OS
+512 GB SSD	Disk
+Vivo	Model
+39.62 cm (15.6 inch) 	Dim
+Asus	Brand
+
+Modern	Model
+35.56 cm (14 inch) 	Dim
+MSI	Brand
+64 bit Windows 10	OS
+8 GB DDR4 	RAM
+512 GB SSD	Disk
+Laptop	Category
+Intel Core i5 Processor (10th Gen)	Processor
+
+1 TB HDD	Disk
+64 bit Windows 10	OS
+Laptop	Category
+4 GB DDR4 	RAM
+Envy	Model
+HP	Brand
+39.62 cm (15.6 inch) 	Dim
+Intel Core i3 Processor (7th Gen)	Processor
+
+39.62 cm (15.6 inch) 	Dim
+Laptop	Category
+Lenovo	Brand
+4 GB DDR4 	RAM
+64 bit Windows 10	OS
+1 TB HDD	Disk
+Intel Celeron Dual Core Processor	Processor
+Ideapad	Model
+
+Intel Core i5 Processor (5th Gen)	Processor
+128 GB SSD	Disk
+MacBook Air	Model
+Apple	Brand
+64 bit Mac	OS
+8 GB DDR3 	RAM
+Laptop	Category
+33.78 cm (13.3 inch) 	Dim
+
+8 GB DDR4 	RAM
+64 bit Windows 10	OS
+Laptop	Category
+Intel Core i7 Processor (8th Gen)	Processor
+1 TB HDD	Disk
+ThinkPad X Series	Model
+39.62 cm (15.6 inch) 	Dim
+Lenovo	Brand
+
+HP	Brand
+4 GB DDR4 	RAM
+35.56 cm (14 inch) Touchscreen 	Dim
+Laptop	Category
+256 GB SSD	Disk
+64 bit Windows 10	OS
+Intel Core i3 Processor (8th Gen)	Processor
+Pavilion	Model
+
+Ideapad	Model
+39.62 cm (15.6 inch) 	Dim
+1 TB HDD	Disk
+Lenovo	Brand
+4 GB DDR4 	RAM
+64 bit Windows 10	OS
+Laptop	Category
+AMD APU Dual Core A6 Processor	Processor
+
+Acer	Brand
+4 GB DDR4 	RAM
+64 bit Windows 10	OS
+Aspire	Model
+39.62 cm (15.6 inch) 	Dim
+1 TB HDD	Disk
+Intel Core i3 Processor (8th Gen)	Processor
+Laptop	Category
+
+64 bit Windows 10	OS
+1 TB HDD|256 GB SSD	Disk
+Intel Core i7 Processor (9th Gen)	Processor
+Nitro	Model
+8 GB DDR4 	RAM
+Laptop	Category
+Acer	Brand
+39.62 cm (15.6 inch) 	Dim
+
+1 TB HDD	Disk
+64 bit Windows 10	OS
+EliteBook	Model
+HP	Brand
+4 GB DDR4 	RAM
+39.62 cm (15.6 inch) 	Dim
+AMD Ryzen 3 Dual Core Processor	Processor
+Laptop	Category
+
+64 bit Windows 10	OS
+1 TB HDD	Disk
+Intel Core i3 Processor (7th Gen)	Processor
+HP	Brand
+39.62 cm (15.6 inch) 	Dim
+Laptop	Category
+8 GB DDR4 	RAM
+Pavilion	Model
+
+Dell	Brand
+Linux/Ubuntu	OS
+Intel Core i3 Processor (7th Gen)	Processor
+35.56 cm (14 inch) 	Dim
+Laptop	Category
+4 GB DDR4 	RAM
+1 TB HDD	Disk
+Latitude	Model
+
+HP	Brand
+39.62 cm (15.6 inch) 	Dim
+64 bit Windows 10	OS
+AMD Ryzen 5 Quad Core Processor	Processor
+Pavilion	Model
+1 TB HDD|128 GB SSD	Disk
+Laptop	Category
+8 GB DDR4 	RAM
+
+AMD Ryzen 5 Quad Core Processor	Processor
+Laptop	Category
+Pavilion	Model
+8 GB DDR4 	RAM
+64 bit Windows 10	OS
+1 TB HDD|128 GB SSD	Disk
+39.62 cm (15.6 inch) 	Dim
+HP	Brand
+
+Laptop	Category
+Asus	Brand
+ROG	Model
+39.62 cm (15.6 inch) 	Dim
+Intel Core i5 Processor (9th Gen)	Processor
+8 GB DDR4 	RAM
+1 TB HDD|256 GB SSD	Disk
+64 bit Windows 10	OS
+
+35.56 cm (14 inch) 	Dim
+8 GB DDR4 	RAM
+256 GB SSD	Disk
+Laptop	Category
+HP	Brand
+Notebook	Model
+64 bit Windows 10	OS
+Intel Core i3 Processor (7th Gen)	Processor
+
+Ideapad	Model
+64 bit Windows 10	OS
+39.62 cm (15.6 inch) 	Dim
+Laptop	Category
+4 GB DDR4 	RAM
+Intel Core i3 Processor (7th Gen)	Processor
+1 TB HDD	Disk
+Lenovo	Brand
+
+64 bit Windows 10	OS
+ThinkPad T Series	Model
+4 GB DDR4 	RAM
+Intel Core i3 Processor (7th Gen)	Processor
+Laptop	Category
+Lenovo	Brand
+1 TB HDD	Disk
+39.62 cm (15.6 inch) 	Dim
+
+Linux/Ubuntu	OS
+1 TB HDD	Disk
+Laptop	Category
+4 GB DDR4 	RAM
+35.56 cm (14 inch) 	Dim
+Vostro	Model
+Intel Core i3 Processor (8th Gen)	Processor
+Dell	Brand
+
+ProBook	Model
+35.56 cm (14 inch) 	Dim
+64 bit Windows 10	OS
+8 GB DDR4 	RAM
+1 TB HDD	Disk
+HP	Brand
+Laptop	Category
+Intel Core i5 Processor (8th Gen)	Processor
+
+64 bit Windows 10	OS
+Asus	Brand
+512 GB SSD	Disk
+Laptop	Category
+Vivo	Model
+Intel Core i5 Processor (9th Gen)	Processor
+8 GB DDR4 	RAM
+39.62 cm (15.6 inch) 	Dim
+
+Lenovo	Brand
+64 bit Windows 10	OS
+1 TB HDD	Disk
+Laptop	Category
+Intel Core i5 Processor (8th Gen)	Processor
+Ideapad	Model
+39.62 cm (15.6 inch) 	Dim
+8 GB DDR4 	RAM
+
+39.62 cm (15.6 inch) 	Dim
+Intel Core i3 Processor (7th Gen)	Processor
+1 TB HDD	Disk
+Laptop	Category
+Ideapad	Model
+8 GB DDR4 	RAM
+Lenovo	Brand
+64 bit Windows 10	OS
+
+35.56 cm (14 inch) 	Dim
+MSI	Brand
+Modern	Model
+Laptop	Category
+512 GB SSD	Disk
+Intel Core i5 Processor (10th Gen)	Processor
+8 GB DDR4 	RAM
+64 bit Windows 10	OS
+
+Intel Core i3 Processor (8th Gen)	Processor
+HP	Brand
+256 GB SSD	Disk
+35.56 cm (14 inch) Touchscreen 	Dim
+64 bit Windows 10	OS
+Pavilion	Model
+4 GB DDR4 	RAM
+Laptop	Category
+
+1 TB HDD	Disk
+64 bit Windows 10	OS
+Intel Core i7 Processor (8th Gen)	Processor
+Laptop	Category
+ThinkPad X Series	Model
+39.62 cm (15.6 inch) 	Dim
+8 GB DDR4 	RAM
+Lenovo	Brand
+
+HP	Brand
+4 GB DDR4 	RAM
+39.62 cm (15.6 inch) 	Dim
+Pavilion	Model
+1 TB HDD	Disk
+64 bit Windows 10	OS
+Laptop	Category
+Intel Core i3 Processor (7th Gen)	Processor
+
+Lenovo	Brand
+1 TB HDD	Disk
+Ideapad	Model
+Intel Celeron Dual Core Processor	Processor
+Laptop	Category
+4 GB DDR4 	RAM
+64 bit Windows 10	OS
+39.62 cm (15.6 inch) 	Dim
+
+33.78 cm (13.3 inch) 	Dim
+Apple	Brand
+MacBook Air	Model
+Intel Core i5 Processor (5th Gen)	Processor
+128 GB SSD	Disk
+8 GB DDR3 	RAM
+Laptop	Category
+64 bit Mac	OS
+
+39.62 cm (15.6 inch) 	Dim
+Ideapad	Model
+64 bit Windows 10	OS
+Lenovo	Brand
+AMD APU Dual Core A6 Processor	Processor
+Laptop	Category
+1 TB HDD	Disk
+4 GB DDR4 	RAM
+
+1 TB HDD|256 GB SSD	Disk
+Intel Core i7 Processor (9th Gen)	Processor
+Nitro	Model
+Laptop	Category
+Acer	Brand
+39.62 cm (15.6 inch) 	Dim
+64 bit Windows 10	OS
+8 GB DDR4 	RAM
+
+Envy	Model
+8 GB DDR4 	RAM
+39.62 cm (15.6 inch) 	Dim
+HP	Brand
+Laptop	Category
+Intel Core i3 Processor (7th Gen)	Processor
+64 bit Windows 10	OS
+1 TB HDD	Disk
+
+64 bit Windows 10	OS
+Aspire	Model
+Laptop	Category
+1 TB HDD	Disk
+Acer	Brand
+39.62 cm (15.6 inch) 	Dim
+4 GB DDR4 	RAM
+Intel Core i3 Processor (8th Gen)	Processor
+
+64 bit Windows 10	OS
+ProBook	Model
+Laptop	Category
+39.62 cm (15.6 inch) 	Dim
+HP	Brand
+AMD Ryzen 3 Dual Core Processor	Processor
+1 TB HDD	Disk
+4 GB DDR4 	RAM
+
+AMD Ryzen 5 Quad Core Processor	Processor
+HP	Brand
+64 bit Windows 10	OS
+39.62 cm (15.6 inch) 	Dim
+Pavilion	Model
+8 GB DDR4 	RAM
+Laptop	Category
+1 TB HDD|128 GB SSD	Disk
+
+64 bit Windows 10	OS
+8 GB DDR4 	RAM
+Laptop	Category
+HP	Brand
+AMD Ryzen 5 Quad Core Processor	Processor
+1 TB HDD|128 GB SSD	Disk
+39.62 cm (15.6 inch) 	Dim
+Pavilion	Model
+
+1 TB HDD	Disk
+Dell	Brand
+4 GB DDR4 	RAM
+Laptop	Category
+Inspiron	Model
+Linux/Ubuntu	OS
+35.56 cm (14 inch) 	Dim
+Intel Core i3 Processor (7th Gen)	Processor
+
+Laptop	Category
+Intel Core i5 Processor (9th Gen)	Processor
+Asus	Brand
+ROG	Model
+39.62 cm (15.6 inch) 	Dim
+8 GB DDR4 	RAM
+64 bit Windows 10	OS
+1 TB HDD|256 GB SSD	Disk
+
+Laptop	Category
+AMD Ryzen 3 Dual Core Processor	Processor
+1 TB HDD|256 GB SSD	Disk
+Envy	Model
+4 GB DDR4 	RAM
+HP	Brand
+39.62 cm (15.6 inch) 	Dim
+64 bit Windows 10	OS
+
+39.62 cm (15.6 inch) 	Dim
+Intel Core i5 Processor (8th Gen)	Processor
+64 bit Windows 10	OS
+Ideapad	Model
+4 GB DDR4 	RAM
+Lenovo	Brand
+1 TB HDD	Disk
+Laptop	Category
+
+Laptop	Category
+1 TB HDD|256 GB SSD	Disk
+35.56 cm (14 inch) 	Dim
+8 GB DDR4 	RAM
+Intel Core i7 Processor (8th Gen)	Processor
+Asus	Brand
+Vivo	Model
+64 bit Windows 10	OS
+
+Nitro	Model
+Acer	Brand
+Laptop	Category
+39.62 cm (15.6 inch) 	Dim
+64 bit Windows 10	OS
+8 GB DDR4 	RAM
+AMD Ryzen 5 Quad Core Processor	Processor
+1 TB HDD|256 GB SSD	Disk
+
+64 bit Windows 10	OS
+16 GB DDR4 	RAM
+Acer	Brand
+43.94 cm (17.3 inch) 	Dim
+Laptop	Category
+Predator	Model
+Intel Core i7 Processor (9th Gen)	Processor
+2 TB HDD|256 GB SSD	Disk
+
+16 GB DDR4 	RAM
+Laptop	Category
+MSI	Brand
+39.62 cm (15.6 inch) 	Dim
+64 bit Windows 10	OS
+Intel Core i7 Processor (9th Gen)	Processor
+Modern	Model
+1 TB SSD	Disk
+
+Intel Core i5 Processor (8th Gen)	Processor
+Laptop	Category
+8 GB DDR4 	RAM
+Vivo	Model
+35.56 cm (14 inch) 	Dim
+64 bit Windows 10	OS
+Asus	Brand
+512 GB SSD	Disk
+
+64 bit Windows 10	OS
+1 TB HDD	Disk
+TUF Gaming	Model
+Asus	Brand
+8 GB DDR4 	RAM
+AMD Ryzen 5 Quad Core Processor	Processor
+39.62 cm (15.6 inch) 	Dim
+Laptop	Category
+
+64 bit Windows 10	OS
+Laptop	Category
+Intel Core i5 Processor (9th Gen)	Processor
+Predator	Model
+43.94 cm (17.3 inch) 	Dim
+16 GB DDR4 	RAM
+Acer	Brand
+1 TB HDD|256 GB SSD	Disk
+
+1 TB HDD|256 GB SSD	Disk
+Vivo	Model
+Asus	Brand
+Laptop	Category
+64 bit Windows 10	OS
+35.56 cm (14 inch) 	Dim
+8 GB DDR4 	RAM
+Intel Core i5 Processor (8th Gen)	Processor
+
+39.62 cm (15.6 inch) 	Dim
+AMD Ryzen 5 Quad Core Processor	Processor
+1 TB HDD	Disk
+Laptop	Category
+Ideapad	Model
+8 GB DDR4 	RAM
+Lenovo	Brand
+64 bit Windows 10	OS
+
+Laptop	Category
+35.56 cm (14 inch) 	Dim
+64 bit Windows 10	OS
+Intel Core i5 Processor (8th Gen)	Processor
+Avita	Brand
+Liber	Model
+256 GB SSD	Disk
+8 GB DDR4 	RAM
+
+Intel Core i5 Processor (8th Gen)	Processor
+35.56 cm (14 inch) 	Dim
+HP	Brand
+Pavilion	Model
+64 bit Windows 10	OS
+512 GB SSD	Disk
+Laptop	Category
+8 GB DDR4 	RAM
+
+Notebook	Model
+4 GB DDR4 	RAM
+1 TB HDD	Disk
+HP	Brand
+Laptop	Category
+Intel Core i3 Processor (8th Gen)	Processor
+38.1 cm (15 inch) 	Dim
+64 bit Windows 10	OS
+
+64 bit Windows 10	OS
+33.78 cm (13.3 inch) Touchscreen 	Dim
+512 GB SSD	Disk
+8 GB DDR4 	RAM
+Yoga	Model
+Lenovo	Brand
+Intel Core i7 Processor (8th Gen)	Processor
+Laptop	Category
+
+Acer	Brand
+64 bit Windows 10	OS
+512 GB SSD	Disk
+Laptop	Category
+8 GB DDR4 	RAM
+Aspire	Model
+Intel Core i5 Processor (8th Gen)	Processor
+35.56 cm (14 inch) 	Dim
+
+Laptop	Category
+Nitro	Model
+Acer	Brand
+39.62 cm (15.6 inch) 	Dim
+Intel Core i5 Processor (9th Gen)	Processor
+8 GB DDR4 	RAM
+64 bit Windows 10	OS
+1 TB HDD	Disk
+
+D	OS
+Ideapad	Model
+AMD APU Dual Core A6 Processor	Processor
+39.62 cm (15.6 inch) 	Dim
+Laptop	Category
+4 GB DDR4 	RAM
+1 TB HDD	Disk
+Lenovo	Brand
+
+4 GB DDR4 	RAM
+64 bit Windows 10	OS
+256 GB SSD	Disk
+HP	Brand
+35.56 cm (14 inch) Touchscreen 	Dim
+Pavilion	Model
+Laptop	Category
+Intel Core i3 Processor (10th Gen)	Processor
+
+Intel Core i3 Processor (7th Gen)	Processor
+64 bit Windows 10	OS
+Zbook	Model
+1 TB HDD	Disk
+Laptop	Category
+39.62 cm (15.6 inch) 	Dim
+HP	Brand
+4 GB DDR4 	RAM
+
+64 bit Windows 10	OS
+AMD Ryzen 5 Quad Core Processor (2nd Gen)	Processor
+Vivo	Model
+35.56 cm (14 inch) 	Dim
+Asus	Brand
+512 GB SSD	Disk
+8 GB DDR4 	RAM
+Laptop	Category
+
+Intel Core i3 Processor (7th Gen)	Processor
+Ideapad	Model
+Laptop	Category
+1 TB HDD	Disk
+Lenovo	Brand
+39.62 cm (15.6 inch) 	Dim
+D	OS
+4 GB DDR4 	RAM
+
+39.62 cm (15.6 inch) 	Dim
+Lenovo	Brand
+Ideapad	Model
+1 TB HDD	Disk
+4 GB DDR4 	RAM
+D	OS
+Intel Core i3 Processor (7th Gen)	Processor
+Laptop	Category
+
+ProBook	Model
+39.62 cm (15.6 inch) 	Dim
+8 GB DDR4 	RAM
+Laptop	Category
+HP	Brand
+1 TB HDD	Disk
+64 bit Windows 10	OS
+Intel Core i5 Processor (8th Gen)	Processor
+
+64 bit Windows 10	OS
+Vivo	Model
+Intel Core i3 Processor (8th Gen)	Processor
+39.62 cm (15.6 inch) 	Dim
+Laptop	Category
+4 GB DDR4 	RAM
+256 GB SSD	Disk
+Asus	Brand
+
+4 GB DDR4 	RAM
+Laptop	Category
+Lenovo	Brand
+D	OS
+Ideapad	Model
+1 TB HDD	Disk
+35.56 cm (14 inch) 	Dim
+Intel Core i3 Processor (6th Gen)	Processor
+
+Laptop	Category
+Apple	Brand
+33.78 cm (13.3 inch) 	Dim
+8 GB DDR3 	RAM
+MacBook Pro	Model
+128 GB SSD	Disk
+Mac	OS
+Intel Core i5 Processor (8th Gen)	Processor
+
+MSI	Brand
+64 bit Windows 10	OS
+1 TB HDD|1 TB SSD	Disk
+16 GB DDR4 	RAM
+Intel Core i7 Processor (9th Gen)	Processor
+Laptop	Category
+43.94 cm (17.3 inch) 	Dim
+Gaming	Model
+
+Lenovo	Brand
+4 GB DDR4 	RAM
+Ideapad	Model
+Intel Core i3 Processor (7th Gen)	Processor
+39.62 cm (15.6 inch) 	Dim
+1 TB HDD	Disk
+Laptop	Category
+64 bit Windows 10	OS
+
+8 GB DDR4 	RAM
+HP	Brand
+64 bit Windows 10	OS
+Pavilion	Model
+35.56 cm (14 inch) 	Dim
+Laptop	Category
+Intel Core i5 Processor (8th Gen)	Processor
+1 TB HDD|256 GB SSD	Disk
+
+Asus	Brand
+35.56 cm (14 inch) 	Dim
+ZenBook	Model
+Laptop	Category
+8 GB DDR3 	RAM
+64 bit Windows 10	OS
+Intel Core i5 Processor (8th Gen)	Processor
+256 GB SSD	Disk
+
+Intel Core i5 Processor (8th Gen)	Processor
+39.62 cm (15.6 inch) 	Dim
+Laptop	Category
+D	OS
+Ideapad	Model
+Lenovo	Brand
+1 TB HDD	Disk
+8 GB DDR4 	RAM
+
+Intel Core i5 Processor (8th Gen)	Processor
+4 GB DDR4 	RAM
+39.62 cm (15.6 inch) 	Dim
+ProBook	Model
+1 TB HDD	Disk
+64 bit Windows 10	OS
+Laptop	Category
+HP	Brand
+
+Intel Core i5 Processor (8th Gen)	Processor
+Dell	Brand
+8 GB DDR4 	RAM
+39.62 cm (15.6 inch) 	Dim
+Laptop	Category
+G	Model
+64 bit Windows 10	OS
+1 TB HDD|128 GB SSD	Disk
+
+Envy	Model
+33.78 cm (13.3 inch) Touchscreen 	Dim
+64 bit Windows 10	OS
+Laptop	Category
+Intel Core i5 Processor (10th Gen)	Processor
+8 GB DDR4 	RAM
+HP	Brand
+512 GB SSD	Disk
+
+TravelMate	Model
+43.94 cm (17.3 inch) 	Dim
+64 bit Windows 10	OS
+Intel Core i7 Processor (9th Gen)	Processor
+Laptop	Category
+16 GB DDR4 	RAM
+1 TB HDD|256 GB SSD	Disk
+Acer	Brand
+
+Laptop	Category
+Intel Core i5 Processor (8th Gen)	Processor
+64 bit Windows 10	OS
+Vivo	Model
+Asus	Brand
+8 GB DDR4 	RAM
+1 TB HDD|256 GB SSD	Disk
+35.56 cm (14 inch) 	Dim
+
+39.62 cm (15.6 inch) 	Dim
+Ideapad	Model
+64 bit Windows 10	OS
+Lenovo	Brand
+1 TB HDD	Disk
+Laptop	Category
+Intel Core i3 Processor (7th Gen)	Processor
+4 GB DDR4 	RAM
+
+39.62 cm (15.6 inch) 	Dim
+16 GB DDR4 	RAM
+Asus	Brand
+64 bit Windows 10	OS
+Vivo	Model
+Laptop	Category
+512 GB SSD	Disk
+Intel Core i7 Processor (9th Gen)	Processor
+
+Laptop	Category
+4 GB DDR4 	RAM
+Intel Core i3 Processor (7th Gen)	Processor
+1 TB HDD	Disk
+HP	Brand
+39.62 cm (15.6 inch) 	Dim
+Zbook	Model
+64 bit Windows 10	OS
+
+64 bit Windows 10	OS
+Laptop	Category
+512 GB SSD	Disk
+Ideapad	Model
+Lenovo	Brand
+Intel Core i5 Processor (10th Gen)	Processor
+39.62 cm (15.6 inch) 	Dim
+8 GB DDR4 	RAM
+
+Laptop	Category
+4 GB DDR4 	RAM
+35.56 cm (14 inch) 	Dim
+AMD APU Dual Core A6 Processor	Processor
+Lenovo	Brand
+Ideapad	Model
+1 TB HDD	Disk
+64 bit Windows 10	OS
+
+Intel Core i5 Processor (8th Gen)	Processor
+Pavilion	Model
+8 GB DDR4 	RAM
+1 TB HDD	Disk
+64 bit Windows 10	OS
+HP	Brand
+39.62 cm (15.6 inch) 	Dim
+Laptop	Category
+
+4 GB DDR4 	RAM
+Laptop	Category
+D	OS
+35.56 cm (14 inch) 	Dim
+Zbook	Model
+HP	Brand
+1 TB HDD	Disk
+AMD APU Dual Core A6 Processor	Processor
+
+256 GB SSD	Disk
+Laptop	Category
+Liber	Model
+8 GB DDR3 	RAM
+Intel Core i5 Processor (7th Gen)	Processor
+35.56 cm (14 inch) 	Dim
+Avita	Brand
+64 bit Windows 10	OS
+
+AMD Ryzen 5 Quad Core Processor	Processor
+39.62 cm (15.6 inch) 	Dim
+1 TB HDD	Disk
+Acer	Brand
+64 bit Windows 10	OS
+Nitro	Model
+Laptop	Category
+8 GB DDR4 	RAM
+
+64 bit Windows 10	OS
+Ideapad	Model
+512 GB SSD	Disk
+Laptop	Category
+8 GB DDR4 	RAM
+AMD Ryzen 5 Quad Core Processor	Processor
+39.62 cm (15.6 inch) 	Dim
+Lenovo	Brand
+
+Predator	Model
+Laptop	Category
+Intel Core i7 Processor (9th Gen)	Processor
+1 TB HDD|256 GB SSD	Disk
+39.62 cm (15.6 inch) 	Dim
+Acer	Brand
+16 GB DDR4 	RAM
+64 bit Windows 10	OS
+
+16 GB DDR4 	RAM
+43.94 cm (17.3 inch) 	Dim
+Acer	Brand
+64 bit Windows 10	OS
+Intel Core i7 Processor (9th Gen)	Processor
+Aspire	Model
+Laptop	Category
+2 TB HDD|256 GB SSD	Disk
+
+AMD APU Quad Core A12 Processor	Processor
+8 GB DDR4 	RAM
+Laptop	Category
+512 GB SSD	Disk
+Vivo	Model
+64 bit Windows 10	OS
+35.56 cm (14 inch) 	Dim
+Asus	Brand
+
+35.56 cm (14 inch) 	Dim
+Asus	Brand
+64 bit Windows 10	OS
+512 GB SSD	Disk
+AMD Ryzen 5 Quad Core Processor (2nd Gen)	Processor
+Laptop	Category
+Vivo	Model
+8 GB DDR4 	RAM
+
+256 GB SSD	Disk
+35.56 cm (14 inch) 	Dim
+Vivo	Model
+4 GB DDR4 	RAM
+Asus	Brand
+Intel Core i3 Processor (7th Gen)	Processor
+Laptop	Category
+64 bit Windows 10	OS
+
+64 bit Windows 10	OS
+Laptop	Category
+Intel Core i5 Processor (8th Gen)	Processor
+8 GB DDR4 	RAM
+Asus	Brand
+35.56 cm (14 inch) 	Dim
+512 GB SSD	Disk
+Vivo	Model
+
+Laptop	Category
+8 GB DDR4 	RAM
+HP	Brand
+Pavilion	Model
+39.62 cm (15.6 inch) 	Dim
+64 bit Windows 10	OS
+Intel Core i5 Processor (9th Gen)	Processor
+1 TB HDD|256 GB SSD	Disk
+
+64 bit Windows 10	OS
+Laptop	Category
+Inspiron	Model
+16 GB DDR4 	RAM
+39.62 cm (15.6 inch) 	Dim
+Dell	Brand
+Intel Core i7 Processor (9th Gen)	Processor
+512 GB SSD	Disk
+
+4 GB DDR4 	RAM
+64 bit Windows 10	OS
+39.62 cm (15.6 inch) 	Dim
+Laptop	Category
+1 TB HDD	Disk
+Ideapad	Model
+Lenovo	Brand
+Intel Core i3 Processor (8th Gen)	Processor
+
+Laptop	Category
+256 GB SSD	Disk
+Mac	OS
+8 GB DDR3 	RAM
+Intel Core i5 Processor (8th Gen)	Processor
+33.78 cm (13.3 inch) 	Dim
+Apple	Brand
+MacBook Pro	Model
+
+Laptop	Category
+33.78 cm (13.3 inch) 	Dim
+256 GB SSD	Disk
+8 GB DDR3 	RAM
+64 bit Windows 10	OS
+Intel Core i5 Processor (8th Gen)	Processor
+ZenBook	Model
+Asus	Brand
+
+Ideapad	Model
+Intel Core i5 Processor (8th Gen)	Processor
+Lenovo	Brand
+Laptop	Category
+39.62 cm (15.6 inch) 	Dim
+1 TB HDD	Disk
+4 GB DDR4 	RAM
+64 bit Windows 10	OS
+
+1 TB HDD	Disk
+4 GB DDR4 	RAM
+Zbook	Model
+35.56 cm (14 inch) 	Dim
+Laptop	Category
+Intel Core i3 Processor (7th Gen)	Processor
+D	OS
+HP	Brand
+
+Intel Core i5 Processor (10th Gen)	Processor
+33.78 cm (13.3 inch) Touchscreen 	Dim
+Envy	Model
+256 GB SSD	Disk
+Laptop	Category
+64 bit Windows 10	OS
+8 GB DDR4 	RAM
+HP	Brand
+
+8 GB DDR4 	RAM
+Intel Core i5 Processor (10th Gen)	Processor
+Pavilion	Model
+35.56 cm (14 inch) 	Dim
+64 bit Windows 10	OS
+Laptop	Category
+512 GB SSD	Disk
+HP	Brand
+
+ZenBook	Model
+39.62 cm (15.6 inch) Touchscreen 	Dim
+32 GB DDR4 	RAM
+Laptop	Category
+64 bit Windows 10	OS
+Asus	Brand
+1 TB SSD	Disk
+Intel Core i9 Processor (9th Gen)	Processor
+
+35.56 cm (14 inch) Touchscreen 	Dim
+Intel Core i5 Processor (8th Gen)	Processor
+64 bit Windows 10	OS
+8 GB DDR4 	RAM
+Pavilion	Model
+1 TB HDD|8 GB SSD	Disk
+HP	Brand
+Laptop	Category
+
+64 bit Windows 10	OS
+39.62 cm (15.6 inch) 	Dim
+Laptop	Category
+Nitro	Model
+Intel Core i5 Processor (9th Gen)	Processor
+Acer	Brand
+1 TB HDD|256 GB SSD	Disk
+8 GB DDR4 	RAM
+
+Intel Core i3 Processor (7th Gen)	Processor
+4 GB DDR4 	RAM
+Ideapad	Model
+Lenovo	Brand
+39.62 cm (15.6 inch) 	Dim
+1 TB HDD	Disk
+Laptop	Category
+D	OS
+
+Intel Core i3 Processor (7th Gen)	Processor
+HP	Brand
+Laptop	Category
+35.56 cm (14 inch) 	Dim
+64 bit Windows 10	OS
+4 GB DDR4 	RAM
+1 TB HDD	Disk
+EliteBook	Model
+
+Asus	Brand
+39.62 cm (15.6 inch) 	Dim
+1 TB HDD	Disk
+Laptop	Category
+64 bit Windows 10	OS
+TUF Gaming	Model
+AMD Ryzen 5 Quad Core Processor	Processor
+4 GB DDR4 	RAM
+
+8 GB DDR4 	RAM
+39.62 cm (15.6 inch) 	Dim
+Intel Core i3 Processor (8th Gen)	Processor
+Pavilion	Model
+Laptop	Category
+1 TB HDD	Disk
+HP	Brand
+64 bit Windows 10	OS
+
+Intel Core i5 Processor (8th Gen)	Processor
+Laptop	Category
+Vivo	Model
+64 bit Windows 10	OS
+Asus	Brand
+8 GB DDR4 	RAM
+35.56 cm (14 inch) 	Dim
+1 TB HDD|256 GB SSD	Disk
+
+Intel Core i5 Processor (8th Gen)	Processor
+8 GB DDR3 	RAM
+MacBook Pro	Model
+512 GB SSD	Disk
+Apple	Brand
+Mac	OS
+Laptop	Category
+33.78 cm (13.3 inch) 	Dim
+
+35.56 cm (14 inch) 	Dim
+Laptop	Category
+Asus	Brand
+8 GB DDR4 	RAM
+Intel Core i5 Processor (8th Gen)	Processor
+512 GB SSD	Disk
+64 bit Windows 10	OS
+Vivo	Model
+
+Ideapad	Model
+64 bit Windows 10	OS
+4 GB DDR4 	RAM
+Lenovo	Brand
+Laptop	Category
+1 TB HDD	Disk
+35.56 cm (14 inch) 	Dim
+Intel Core i3 Processor (10th Gen)	Processor
+
+ProBook	Model
+4 GB DDR4 	RAM
+Laptop	Category
+39.62 cm (15.6 inch) 	Dim
+500 GB HDD	Disk
+64 bit Windows 10	OS
+AMD APU Dual Core A9 Processor	Processor
+HP	Brand
+
+256 GB SSD	Disk
+Pavilion	Model
+35.56 cm (14 inch) Touchscreen 	Dim
+Intel Core i3 Processor (8th Gen)	Processor
+64 bit Windows 10	OS
+HP	Brand
+4 GB DDR4 	RAM
+Laptop	Category
+
+Liber	Model
+256 GB SSD	Disk
+Avita	Brand
+64 bit Windows 10	OS
+Laptop	Category
+8 GB DDR4 	RAM
+Intel Core i5 Processor (8th Gen)	Processor
+35.56 cm (14 inch) 	Dim
+
+AMD Ryzen 7 Quad Core Processor	Processor
+HP	Brand
+64 bit Windows 10	OS
+8 GB DDR4 	RAM
+39.62 cm (15.6 inch) 	Dim
+Pavilion	Model
+1 TB HDD|128 GB SSD	Disk
+Laptop	Category
+
+34.29 cm (13.5 inch) Touchscreen 	Dim
+256 GB SSD	Disk
+64 bit Windows 10	OS
+Microsoft	Brand
+Surface	Model
+Intel Core i7 Processor (7th Gen)	Processor
+Laptop	Category
+8 GB DDR3 	RAM
+
+256 GB SSD	Disk
+Intel Core i5 Processor (8th Gen)	Processor
+8 GB DDR3 	RAM
+64 bit Windows 10	OS
+Asus	Brand
+35.56 cm (14 inch) 	Dim
+ZenBook	Model
+Laptop	Category
+
+Intel Core i7 Processor (9th Gen)	Processor
+Gaming	Model
+MSI	Brand
+Laptop	Category
+1 TB SSD	Disk
+32 GB DDR4 	RAM
+39.62 cm (15.6 inch) 	Dim
+64 bit Windows 10	OS
+
+Liber	Model
+256 GB SSD	Disk
+64 bit Windows 10	OS
+Intel Core i5 Processor (8th Gen)	Processor
+8 GB DDR4 	RAM
+Laptop	Category
+Avita	Brand
+35.56 cm (14 inch) 	Dim
+
+Nitro	Model
+64 bit Windows 10	OS
+Laptop	Category
+8 GB DDR4 	RAM
+Acer	Brand
+Intel Core i7 Processor (8th Gen)	Processor
+39.62 cm (15.6 inch) 	Dim
+1 TB HDD	Disk
+
+Vivo	Model
+64 bit Windows 10	OS
+Intel Core i5 Processor (8th Gen)	Processor
+1 TB HDD|256 GB SSD	Disk
+Asus	Brand
+Laptop	Category
+35.56 cm (14 inch) 	Dim
+8 GB DDR4 	RAM
+
+35.56 cm (14 inch) 	Dim
+Laptop	Category
+Vivo	Model
+4 GB DDR4 	RAM
+Intel Core i3 Processor (7th Gen)	Processor
+Asus	Brand
+64 bit Windows 10	OS
+256 GB SSD	Disk
+
+Laptop	Category
+Legion	Model
+1 TB HDD|128 GB SSD	Disk
+64 bit Windows 10	OS
+Intel Core i7 Processor (8th Gen)	Processor
+39.62 cm (15.6 inch) 	Dim
+Lenovo	Brand
+8 GB DDR4 	RAM
+
+Laptop	Category
+Yoga	Model
+8 GB DDR4 	RAM
+Lenovo	Brand
+512 GB SSD	Disk
+33.78 cm (13.3 inch) Touchscreen 	Dim
+Intel Core i5 Processor (8th Gen)	Processor
+64 bit Windows 10	OS
+
+1 TB HDD|256 GB SSD	Disk
+39.62 cm (15.6 inch) 	Dim
+HP	Brand
+64 bit Windows 10	OS
+Laptop	Category
+8 GB DDR4 	RAM
+Pavilion	Model
+Intel Core i7 Processor (9th Gen)	Processor
+
+4 GB DDR4 	RAM
+HP	Brand
+64 bit Windows 10	OS
+256 GB SSD	Disk
+Laptop	Category
+35.56 cm (14 inch) Touchscreen 	Dim
+Pavilion	Model
+Intel Core i3 Processor (10th Gen)	Processor
+
+Intel Core i3 Processor (7th Gen)	Processor
+Pavilion	Model
+64 bit D	OS
+Laptop	Category
+1 TB HDD	Disk
+39.62 cm (15.6 inch) 	Dim
+4 GB DDR4 	RAM
+HP	Brand
+
+8 GB DDR4 	RAM
+Intel Core i5 Processor (8th Gen)	Processor
+Laptop	Category
+39.62 cm (15.6 inch) 	Dim
+Dell	Brand
+1 TB HDD|512 GB SSD	Disk
+Inspiron	Model
+64 bit Windows 10	OS
+
+Mac	OS
+Intel Core i5 Processor (8th Gen)	Processor
+8 GB DDR3 	RAM
+33.78 cm (13.3 inch) 	Dim
+Laptop	Category
+MacBook Air	Model
+Apple	Brand
+128 GB SSD	Disk
+
+Apple	Brand
+8 GB DDR3 	RAM
+MacBook Pro	Model
+Intel Core i5 Processor (7th Gen)	Processor
+Laptop	Category
+128 GB SSD	Disk
+64 bit Mac	OS
+33.78 cm (13.3 inch) 	Dim
+
+64 bit Windows 10	OS
+35.56 cm (14 inch) 	Dim
+Avita	Brand
+256 GB SSD	Disk
+Liber	Model
+Intel Core i5 Processor (8th Gen)	Processor
+Laptop	Category
+8 GB DDR4 	RAM
+
+Microsoft	Brand
+SurfacePro	Model
+31.24 cm (12.3 inch) Touchscreen 	Dim
+Laptop	Category
+64 bit Windows 10	OS
+256 GB SSD	Disk
+8 GB DDR3 	RAM
+Intel Core i5 Processor (8th Gen)	Processor
+
+64 bit Windows 10	OS
+16 GB DDR4 	RAM
+Intel Core i7 Processor (7th Gen)	Processor
+43.94 cm (17.3 inch) 	Dim
+Laptop	Category
+Predator	Model
+2 TB HDD|256 GB SSD	Disk
+Acer	Brand
+
+Lenovo	Brand
+Laptop	Category
+64 bit Windows 10	OS
+4 GB DDR4 	RAM
+Ideapad	Model
+Intel Core i3 Processor (7th Gen)	Processor
+39.62 cm (15.6 inch) 	Dim
+1 TB HDD	Disk
+
+512 GB SSD	Disk
+MSI	Brand
+Intel Core i7 Processor (10th Gen)	Processor
+35.56 cm (14 inch) 	Dim
+8 GB DDR4 	RAM
+Modern	Model
+64 bit Windows 10	OS
+Laptop	Category
+
+512 GB SSD	Disk
+Yoga	Model
+64 bit Windows 10	OS
+Laptop	Category
+8 GB DDR4 	RAM
+Intel Core i5 Processor (8th Gen)	Processor
+35.56 cm (14 inch) Touchscreen 	Dim
+Lenovo	Brand
+
+1 TB HDD	Disk
+Laptop	Category
+Asus	Brand
+Intel Core i3 Processor (7th Gen)	Processor
+4 GB DDR4 	RAM
+TUF Gaming	Model
+39.62 cm (15.6 inch) 	Dim
+64 bit Endl	OS
+
+Intel Core i5 Processor (8th Gen)	Processor
+64 bit Windows 10	OS
+Laptop	Category
+8 GB DDR4 	RAM
+Acer	Brand
+256 GB SSD	Disk
+Aspire	Model
+33.78 cm (13.3 inch) 	Dim
+
+39.62 cm (15.6 inch) 	Dim
+4 GB DDR4 	RAM
+Laptop	Category
+HP	Brand
+1 TB HDD	Disk
+EliteBook	Model
+Intel Core i3 Processor (8th Gen)	Processor
+64 bit Windows 10	OS
+
+512 GB SSD	Disk
+33.78 cm (13.3 inch) 	Dim
+Laptop	Category
+Intel Core i7 Processor (8th Gen)	Processor
+64 bit Windows 10	OS
+Lenovo	Brand
+8 GB DDR4 	RAM
+Ideapad	Model
+
+33.78 cm (13.3 inch) 	Dim
+Mac	OS
+8 GB DDR3 	RAM
+Laptop	Category
+128 GB SSD	Disk
+MacBook Pro	Model
+Intel Core i5 Processor (8th Gen)	Processor
+Apple	Brand
+
+Laptop	Category
+ZenBook	Model
+1 TB SSD	Disk
+Asus	Brand
+39.62 cm (15.6 inch) Touchscreen 	Dim
+32 GB DDR4 	RAM
+Intel Core i7 Processor (9th Gen)	Processor
+64 bit Windows 10	OS
+
+64 bit Windows 10	OS
+1 TB HDD|128 GB SSD	Disk
+MSI	Brand
+Laptop	Category
+8 GB DDR4 	RAM
+Intel Core i7 Processor (9th Gen)	Processor
+43.94 cm (17.3 inch) 	Dim
+Gaming	Model
+
+Laptop	Category
+ZenBook	Model
+8 GB DDR3 	RAM
+Asus	Brand
+Intel Core i5 Processor (8th Gen)	Processor
+33.78 cm (13.3 inch) 	Dim
+64 bit Windows 10	OS
+256 GB SSD	Disk
+
+Lenovo	Brand
+512 GB SSD	Disk
+64 bit Windows 10	OS
+35.56 cm (14 inch) 	Dim
+Laptop	Category
+Intel Core i5 Processor (8th Gen)	Processor
+8 GB DDR4 	RAM
+Ideapad	Model
+
+1 TB SSD	Disk
+16 GB DDR4 	RAM
+35.56 cm (14 inch) 	Dim
+Asus	Brand
+Laptop	Category
+ZenBook	Model
+Intel Core i7 Processor (8th Gen)	Processor
+64 bit Windows 10	OS
+
+Inspiron	Model
+Dell	Brand
+Intel Core i7 Processor (9th Gen)	Processor
+39.62 cm (15.6 inch) 	Dim
+8 GB DDR4 	RAM
+64 bit Windows 10	OS
+512 GB SSD	Disk
+Laptop	Category
+
+ROG	Model
+16 GB DDR4 	RAM
+Laptop	Category
+1 TB SSD	Disk
+Intel Core i7 Processor (9th Gen)	Processor
+Asus	Brand
+64 bit Windows 10	OS
+39.62 cm (15.6 inch) 	Dim
+
+Nitro	Model
+Intel Core i5 Processor (8th Gen)	Processor
+8 GB DDR4 	RAM
+1 TB HDD|128 GB SSD	Disk
+Acer	Brand
+39.62 cm (15.6 inch) 	Dim
+64 bit Windows 10	OS
+Laptop	Category
+
+Acer	Brand
+Aspire	Model
+2 GB DDR3 	RAM
+500 GB HDD	Disk
+Intel Celeron Dual Core Processor	Processor
+39.62 cm (15.6 inch) 	Dim
+Laptop	Category
+Linux/Ubuntu	OS
+
+Intel Celeron Dual Core Processor	Processor
+Laptop	Category
+1 TB HDD	Disk
+ProBook	Model
+64 bit Windows 10	OS
+39.62 cm (15.6 inch) 	Dim
+HP	Brand
+4 GB DDR4 	RAM
+
+Mac	OS
+Intel Core i9 Processor (8th Gen)	Processor
+Apple	Brand
+Laptop	Category
+16 GB DDR3 	RAM
+39.12 cm (15.4 inch) 	Dim
+MacBook Pro	Model
+512 GB SSD	Disk
+
+Lenovo	Brand
+Laptop	Category
+38.1 cm (15 inch) 	Dim
+Legion	Model
+64 bit Windows 10	OS
+Intel Core i5 Processor (9th Gen)	Processor
+1 TB SSD	Disk
+8 GB DDR4 	RAM
+
+XPS	Model
+39.62 cm (15.6 inch) 	Dim
+64 bit Windows 10	OS
+1 TB SSD	Disk
+Dell	Brand
+32 GB DDR4 	RAM
+Intel Core i9 Processor (9th Gen)	Processor
+Laptop	Category
+
+MacBook Pro	Model
+Laptop	Category
+33.78 cm (13.3 inch) 	Dim
+Intel Core i5 Processor (8th Gen)	Processor
+Apple	Brand
+8 GB DDR3 	RAM
+256 GB SSD	Disk
+Mac	OS
+
+Laptop	Category
+64 bit Mac	OS
+256 GB SSD	Disk
+MacBook Pro	Model
+8 GB DDR3 	RAM
+Intel Core m3 Processor (7th Gen)	Processor
+Apple	Brand
+30.48 cm (12 inch) 	Dim
+
+8 GB DDR4 	RAM
+64 bit Windows 10	OS
+Nexstgo	Model
+Intel Core i5 Processor (8th Gen)	Processor
+256 GB SSD	Disk
+35.56 cm (14 inch) 	Dim
+Nexstgo	Brand
+Laptop	Category
+
+Dell	Brand
+64 bit Windows 10	OS
+39.62 cm (15.6 inch) 	Dim
+Laptop	Category
+4 GB DDR4 	RAM
+Inspiron	Model
+1 TB HDD	Disk
+AMD APU Dual Core A6 Processor (7th Gen)	Processor
+
+512 GB SSD	Disk
+Asus	Brand
+8 GB DDR4 	RAM
+64 bit Windows 10	OS
+Vivo	Model
+39.62 cm (15.6 inch) 	Dim
+Laptop	Category
+AMD APU Quad Core A12 Processor	Processor
+
+Laptop	Category
+64 bit Windows 10	OS
+Pavilion	Model
+39.62 cm (15.6 inch) 	Dim
+8 GB DDR4 	RAM
+Intel Core i5 Processor (9th Gen)	Processor
+HP	Brand
+1 TB HDD|256 GB SSD	Disk
+
+8 GB DDR3 	RAM
+256 GB SSD	Disk
+Laptop	Category
+Intel Core i5 Processor (8th Gen)	Processor
+33.78 cm (13.3 inch) 	Dim
+Apple	Brand
+MacBook Air	Model
+Mac	OS
+
+64 bit Windows 10	OS
+Lenovo	Brand
+1 TB HDD	Disk
+Ideapad	Model
+Laptop	Category
+Intel Core i3 Processor (8th Gen)	Processor
+8 GB DDR4 	RAM
+39.62 cm (15.6 inch) 	Dim
+
+35.56 cm (14 inch) Touchscreen 	Dim
+Pavilion	Model
+Laptop	Category
+64 bit Windows 10	OS
+1 TB HDD|256 GB SSD	Disk
+Intel Core i3 Processor (10th Gen)	Processor
+4 GB DDR4 	RAM
+HP	Brand
+
+AMD Ryzen 5 Quad Core Processor	Processor
+39.62 cm (15.6 inch) 	Dim
+Vivo	Model
+Asus	Brand
+512 GB SSD	Disk
+64 bit Windows 10	OS
+8 GB DDR4 	RAM
+Laptop	Category
+
+64 bit Windows 10	OS
+1 TB HDD	Disk
+8 GB DDR4 	RAM
+39.62 cm (15.6 inch) 	Dim
+Aspire	Model
+Intel Core i5 Processor (7th Gen)	Processor
+Acer	Brand
+Laptop	Category
+
+HP	Brand
+Pavilion	Model
+64 bit Windows 10	OS
+4 GB DDR4 	RAM
+Intel Core i3 Processor (7th Gen)	Processor
+Laptop	Category
+35.56 cm (14 inch) 	Dim
+1 TB HDD	Disk
+
+Lenovo	Brand
+Intel Core i3 Processor (8th Gen)	Processor
+35.56 cm (14 inch) Touchscreen 	Dim
+Laptop	Category
+Yoga	Model
+4 GB DDR4 	RAM
+64 bit Windows 10	OS
+1 TB HDD	Disk
+
+Intel Core i5 Processor (8th Gen)	Processor
+35.56 cm (14 inch) 	Dim
+64 bit Windows 10	OS
+Avita	Brand
+8 GB DDR4 	RAM
+256 GB SSD	Disk
+Liber	Model
+Laptop	Category
+
+8 GB DDR4 	RAM
+Lenovo	Brand
+Intel Core i5 Processor (8th Gen)	Processor
+64 bit Windows 10	OS
+Ideapad	Model
+512 GB SSD	Disk
+Laptop	Category
+39.62 cm (15.6 inch) 	Dim
+
+64 bit Windows 10	OS
+Intel Core i5 Processor (8th Gen)	Processor
+Laptop	Category
+512 GB SSD	Disk
+8 GB DDR3 	RAM
+33.78 cm (13.3 inch) 	Dim
+Asus	Brand
+ZenBook	Model
+
+34.29 cm (13.5 inch) Touchscreen 	Dim
+512 GB SSD	Disk
+16 GB DDR3 	RAM
+Surface	Model
+Intel Core i7 Processor (7th Gen)	Processor
+64 bit Windows 10	OS
+Microsoft	Brand
+Laptop	Category
+
+Laptop	Category
+Legion	Model
+39.62 cm (15.6 inch) 	Dim
+2 TB HDD|256 GB SSD	Disk
+8 GB DDR4 	RAM
+Lenovo	Brand
+64 bit Windows 10	OS
+Intel Core i5 Processor (9th Gen)	Processor
+
+Vostro	Model
+Intel Core i5 Processor (8th Gen)	Processor
+Dell	Brand
+Laptop	Category
+1 TB HDD	Disk
+35.56 cm (14 inch) 	Dim
+4 GB DDR4 	RAM
+Linux/Ubuntu	OS
+
+64 bit Windows 8.1	OS
+Intel Core i3 Processor (4th Gen)	Processor
+HP	Brand
+Notebook	Model
+35.2 cm (13.86 inch) 	Dim
+Laptop	Category
+500 GB HDD	Disk
+4 GB DDR3 	RAM
+
+Laptop	Category
+64 bit Windows 10	OS
+1 TB HDD	Disk
+35.56 cm (14 inch) 	Dim
+Zbook	Model
+Intel Core i3 Processor (7th Gen)	Processor
+8 GB DDR4 	RAM
+HP	Brand
+
+HP	Brand
+1 TB HDD|128 GB SSD	Disk
+Laptop	Category
+8 GB DDR4 	RAM
+Intel Core i7 Processor (8th Gen)	Processor
+64 bit Windows 10	OS
+39.62 cm (15.6 inch) 	Dim
+Pavilion	Model
+
+8 GB DDR4 	RAM
+64 bit Windows 10	OS
+256 GB SSD	Disk
+33.78 cm (13.3 inch) Touchscreen 	Dim
+Intel Core i5 Processor (8th Gen)	Processor
+Laptop	Category
+Pavilion	Model
+HP	Brand
+
+Laptop	Category
+256 GB SSD	Disk
+Intel Core i7 Processor (8th Gen)	Processor
+31.24 cm (12.3 inch) Touchscreen 	Dim
+Microsoft	Brand
+SurfacePro	Model
+64 bit Windows 10	OS
+8 GB DDR3 	RAM
+
+1 TB HDD	Disk
+ROG	Model
+Laptop	Category
+8 GB DDR4 	RAM
+39.62 cm (15.6 inch) 	Dim
+Intel Core i5 Processor (9th Gen)	Processor
+Asus	Brand
+64 bit Windows 10	OS
+
+8 GB DDR4 	RAM
+Dell	Brand
+Laptop	Category
+64 bit Windows 10	OS
+1 TB HDD	Disk
+Vostro	Model
+35.56 cm (14 inch) 	Dim
+Intel Core i5 Processor (8th Gen)	Processor
+
+64 bit Windows 10	OS
+1 TB HDD|256 GB SSD	Disk
+Laptop	Category
+Asus	Brand
+39.62 cm (15.6 inch) 	Dim
+8 GB DDR4 	RAM
+Intel Core i7 Processor (8th Gen)	Processor
+Vivo	Model
+
+Ideapad	Model
+512 GB SSD	Disk
+35.56 cm (14 inch) Touchscreen 	Dim
+Lenovo	Brand
+Laptop	Category
+64 bit Windows 10	OS
+8 GB DDR4 	RAM
+Intel Core i3 Processor (10th Gen)	Processor
+
+HP	Brand
+512 GB SSD	Disk
+Laptop	Category
+16 GB DDR4 	RAM
+33.78 cm (13.3 inch) Touchscreen 	Dim
+Pavilion	Model
+64 bit Windows 10	OS
+Intel Core i7 Processor (8th Gen)	Processor
+
+8 GB DDR4 	RAM
+Laptop	Category
+Pavilion	Model
+64 bit Windows 10	OS
+39.62 cm (15.6 inch) 	Dim
+HP	Brand
+1 TB HDD|128 GB SSD	Disk
+Intel Core i5 Processor (8th Gen)	Processor
+
+Laptop	Category
+31.24 cm (12.3 inch) Touchscreen 	Dim
+SurfacePro	Model
+Intel Core i5 Processor (10th Gen)	Processor
+64 bit Windows 10	OS
+Microsoft	Brand
+256 GB SSD	Disk
+8 GB LPDDR4X 	RAM
+
+500 GB HDD	Disk
+Laptop	Category
+ThinkPad Edge Series	Model
+AMD APU Dual Core A6 Processor	Processor
+39.62 cm (15.6 inch) 	Dim
+64 bit Windows 10	OS
+4 GB DDR4 	RAM
+Lenovo	Brand
+
+256 GB SSD	Disk
+64 bit Windows 10	OS
+Avita	Brand
+Laptop	Category
+Liber	Model
+35.56 cm (14 inch) 	Dim
+Intel Core i7 Processor (8th Gen)	Processor
+8 GB DDR4 	RAM
+
+39.62 cm (15.6 inch) 	Dim
+64 bit Windows 10	OS
+Legion	Model
+1 TB HDD|128 GB SSD	Disk
+8 GB DDR4 	RAM
+Laptop	Category
+Lenovo	Brand
+Intel Core i5 Processor (9th Gen)	Processor
+
+1 TB HDD	Disk
+Intel Core i3 Processor (7th Gen)	Processor
+Laptop	Category
+Vivo	Model
+Asus	Brand
+4 GB DDR4 	RAM
+64 bit Windows 10	OS
+39.62 cm (15.6 inch) 	Dim
+
+1 TB HDD|128 GB SSD	Disk
+Asus	Brand
+Vivo	Model
+Intel Core i5 Processor (8th Gen)	Processor
+8 GB DDR4 	RAM
+64 bit Windows 10	OS
+Laptop	Category
+39.62 cm (15.6 inch) 	Dim
+
+Laptop	Category
+Liber	Model
+Intel Core i5 Processor (8th Gen)	Processor
+256 GB SSD	Disk
+64 bit Windows 10	OS
+35.56 cm (14 inch) 	Dim
+8 GB DDR4 	RAM
+Avita	Brand
+
+39.62 cm (15.6 inch) 	Dim
+64 bit Endl	OS
+4 GB DDR4 	RAM
+Asus	Brand
+ZenBook	Model
+Intel Core i3 Processor (7th Gen)	Processor
+Laptop	Category
+1 TB HDD	Disk
+
+1 TB HDD	Disk
+64 bit Windows 10	OS
+8 GB DDR4 	RAM
+Ideapad	Model
+Laptop	Category
+39.62 cm (15.6 inch) 	Dim
+Lenovo	Brand
+Intel Core i5 Processor (9th Gen)	Processor
+
+Intel Core i3 Processor (7th Gen)	Processor
+1 TB HDD|256 GB SSD	Disk
+EliteBook	Model
+Laptop	Category
+39.62 cm (15.6 inch) 	Dim
+64 bit Windows 10	OS
+HP	Brand
+4 GB DDR4 	RAM
+
+39.62 cm (15.6 inch) 	Dim
+16 GB DDR4 	RAM
+Predator	Model
+Laptop	Category
+Acer	Brand
+64 bit Windows 10	OS
+1 TB HDD|256 GB SSD	Disk
+Intel Core i7 Processor (9th Gen)	Processor
+
+Lenovo	Brand
+64 bit Windows 10	OS
+Laptop	Category
+1 TB HDD	Disk
+Intel Core i5 Processor (8th Gen)	Processor
+Ideapad	Model
+4 GB DDR4 	RAM
+39.62 cm (15.6 inch) 	Dim
+
+64 bit Windows 10	OS
+4 GB DDR4 	RAM
+35.56 cm (14 inch) 	Dim
+XPS	Model
+Intel Core i3 Processor (7th Gen)	Processor
+Dell	Brand
+1 TB HDD	Disk
+Laptop	Category
+
+Asus	Brand
+64 bit Windows 10	OS
+512 GB SSD	Disk
+Intel Core i7 Processor (8th Gen)	Processor
+33.78 cm (13.3 inch) 	Dim
+Laptop	Category
+8 GB DDR3 	RAM
+ZenBook	Model
+
+1 TB HDD	Disk
+Intel Core i5 Processor (8th Gen)	Processor
+Laptop	Category
+8 GB DDR4 	RAM
+Dell	Brand
+Vostro	Model
+Linux/Ubuntu	OS
+35.56 cm (14 inch) 	Dim
+
+Asus	Brand
+TUF Gaming	Model
+64 bit Windows 10	OS
+Laptop	Category
+8 GB DDR4 	RAM
+43.94 cm (17.3 inch) 	Dim
+AMD Ryzen 5 Quad Core Processor	Processor
+1 TB HDD	Disk
+
+64 bit Windows 10	OS
+39.62 cm (15.6 inch) 	Dim
+Acer	Brand
+AMD Ryzen 5 Quad Core Processor	Processor
+Nitro	Model
+Laptop	Category
+1 TB HDD|256 GB SSD	Disk
+8 GB DDR4 	RAM
+
+Intel Core i7 Processor (9th Gen)	Processor
+1 TB HDD|512 GB SSD	Disk
+Laptop	Category
+Windows 10	OS
+16 GB DDR4 	RAM
+Zbook	Model
+HP	Brand
+39.62 cm (15.6 inch) 	Dim
+
+Intel Core i3 Processor (8th Gen)	Processor
+39.62 cm (15.6 inch) 	Dim
+Laptop	Category
+1 TB HDD	Disk
+Asus	Brand
+Vivobook	Model
+4 GB DDR4 	RAM
+64 bit Windows 10	OS
+
+Intel Core i5 Processor (8th Gen)	Processor
+1 TB HDD|128 GB SSD	Disk
+Acer	Brand
+8 GB DDR4 	RAM
+39.62 cm (15.6 inch) 	Dim
+Predator	Model
+64 bit Windows 10	OS
+Laptop	Category
+
+512 GB SSD	Disk
+16 GB DDR4 	RAM
+Intel Core i7 Processor (8th Gen)	Processor
+64 bit Windows 10	OS
+Precision	Model
+Laptop	Category
+33.78 cm (13.3 inch) 	Dim
+Dell	Brand
+
+512 GB SSD	Disk
+Packard Bell	Model
+Acer	Brand
+Intel Core i5 Processor (8th Gen)	Processor
+64 bit Windows 10	OS
+35.56 cm (14 inch) 	Dim
+Laptop	Category
+8 GB DDR3 	RAM
+
+8 GB DDR4 	RAM
+Zbook	Model
+64 bit Windows 10	OS
+Laptop	Category
+Intel Core i5 Processor (8th Gen)	Processor
+HP	Brand
+1 TB HDD	Disk
+35.56 cm (14 inch) 	Dim
+
+Laptop	Category
+39.62 cm (15.6 inch) 	Dim
+8 GB DDR4 	RAM
+512 GB SSD	Disk
+Asus	Brand
+64 bit Windows 10	OS
+Intel Ryzen 5 Quad Core Processor	Processor
+Vivo	Model
+
+43.94 cm (17.3 inch) 	Dim
+Laptop	Category
+64 bit Windows 10	OS
+Predator	Model
+8 GB DDR4 	RAM
+Intel Core i5 Processor (9th Gen)	Processor
+Acer	Brand
+1 TB HDD|256 GB SSD	Disk
+
+39.62 cm (15.6 inch) 	Dim
+HP	Brand
+D	OS
+Notebook	Model
+Laptop	Category
+Intel Core i3 Processor (5th Gen)	Processor
+4 GB DDR3 	RAM
+500 GB HDD	Disk
+
+64 bit Windows 10	OS
+Intel Core i5 Processor (8th Gen)	Processor
+1 TB HDD	Disk
+39.62 cm (15.6 inch) 	Dim
+Laptop	Category
+Vivo	Model
+Asus	Brand
+8 GB DDR4 	RAM
+
+Laptop	Category
+Avita	Brand
+35.56 cm (14 inch) 	Dim
+Intel Core i5 Processor (8th Gen)	Processor
+Liber	Model
+256 GB SSD	Disk
+8 GB DDR4 	RAM
+64 bit Windows 10	OS
+
+512 GB SSD	Disk
+Intel Core i5 Processor (8th Gen)	Processor
+8 GB DDR4 	RAM
+Laptop	Category
+Vivo	Model
+64 bit Windows 10	OS
+35.56 cm (14 inch) 	Dim
+Asus	Brand
+
+39.62 cm (15.6 inch) 	Dim
+8 GB DDR4 	RAM
+64 bit Windows 10	OS
+Laptop	Category
+1 TB HDD	Disk
+Intel Core i7 Processor (8th Gen)	Processor
+Asus	Brand
+Vivo	Model
+
+512 GB SSD	Disk
+33.78 cm (13.3 inch) 	Dim
+Ideapad	Model
+64 bit Windows 10	OS
+Laptop	Category
+8 GB DDR4 	RAM
+Lenovo	Brand
+Intel Core i5 Processor (10th Gen)	Processor
+
+16 GB DDR4 	RAM
+64 bit Windows 10	OS
+AMD Ryzen 7 Quad Core Processor	Processor
+Laptop	Category
+Asus	Brand
+512 GB SSD	Disk
+ROG	Model
+39.62 cm (15.6 inch) 	Dim
+
+64 bit Windows 10	OS
+4 GB DDR4 	RAM
+Intel Pentium Gold Processor	Processor
+39.62 cm (15.6 inch) 	Dim
+Laptop	Category
+HP	Brand
+Notebook	Model
+1 TB HDD	Disk
+
+64 bit Windows 10	OS
+Asus	Brand
+ROG	Model
+8 GB DDR4 	RAM
+1 TB HDD|256 GB SSD	Disk
+Intel Core i7 Processor (9th Gen)	Processor
+39.62 cm (15.6 inch) 	Dim
+Laptop	Category
+
+Acer	Brand
+Intel Core i5 Processor (9th Gen)	Processor
+Predator	Model
+1 TB HDD|256 GB SSD	Disk
+16 GB DDR4 	RAM
+Laptop	Category
+64 bit Windows 10	OS
+39.62 cm (15.6 inch) 	Dim
+
+39.62 cm (15.6 inch) 	Dim
+Intel Core i3 Processor (7th Gen)	Processor
+Asus	Brand
+Vivo	Model
+64 bit Windows 10	OS
+Laptop	Category
+1 TB HDD	Disk
+4 GB DDR4 	RAM
+
+Acer	Brand
+Laptop	Category
+1 TB HDD|256 GB SSD	Disk
+39.62 cm (15.6 inch) 	Dim
+Nitro	Model
+64 bit Windows 10	OS
+8 GB DDR4 	RAM
+Intel Core i7 Processor (9th Gen)	Processor
+
+Intel Core i5 Processor (8th Gen)	Processor
+1 TB HDD	Disk
+4 GB DDR4 	RAM
+Laptop	Category
+64 bit Windows 10	OS
+39.62 cm (15.6 inch) 	Dim
+Lenovo	Brand
+Ideapad	Model
+
+AMD Ryzen 5 Dual Core Processor	Processor
+Laptop	Category
+1 TB HDD	Disk
+Envy	Model
+39.62 cm (15.6 inch) 	Dim
+64 bit Windows 10	OS
+HP	Brand
+4 GB DDR4 	RAM
+
+Inspiron	Model
+64 bit Windows 10	OS
+Dell	Brand
+4 GB DDR4 	RAM
+Intel Core i3 Processor (8th Gen)	Processor
+35.56 cm (14 inch) Touchscreen 	Dim
+Laptop	Category
+1 TB HDD	Disk
+
+MacBook Pro	Model
+Intel Core i9 Processor (8th Gen)	Processor
+Mac	OS
+512 GB SSD	Disk
+Apple	Brand
+Laptop	Category
+16 GB DDR3 	RAM
+39.12 cm (15.4 inch) 	Dim
+
+8 GB DDR4 	RAM
+Laptop	Category
+64 bit Windows 10	OS
+TUF Gaming	Model
+AMD Ryzen 5 Quad Core Processor	Processor
+1 TB HDD	Disk
+39.62 cm (15.6 inch) 	Dim
+Asus	Brand
+
+Intel Core i5 Processor (8th Gen)	Processor
+39.62 cm (15.6 inch) 	Dim
+1 TB HDD	Disk
+4 GB DDR4 	RAM
+Asus	Brand
+64 bit Windows 10	OS
+Laptop	Category
+Vivo	Model
+
+HP	Brand
+Intel Core i3 Processor (7th Gen)	Processor
+Pavilion	Model
+256 GB SSD	Disk
+D	OS
+4 GB DDR4 	RAM
+35.56 cm (14 inch) 	Dim
+Laptop	Category
+
+Laptop	Category
+39.62 cm (15.6 inch) 	Dim
+1 TB HDD	Disk
+D	OS
+Lenovo	Brand
+Intel Core i3 Processor (8th Gen)	Processor
+Ideapad	Model
+4 GB DDR4 	RAM
+
+64 bit Windows 10	OS
+35.56 cm (14 inch) 	Dim
+Intel Core i5 Processor (10th Gen)	Processor
+Pavilion	Model
+Laptop	Category
+8 GB DDR4 	RAM
+1 TB HDD|256 GB SSD	Disk
+HP	Brand
+
+39.62 cm (15.6 inch) 	Dim
+64 bit Windows 10	OS
+Laptop	Category
+Asus	Brand
+AMD Ryzen 5 Quad Core Processor	Processor
+Vivo	Model
+512 GB SSD	Disk
+8 GB DDR4 	RAM
+
+Intel Core i5 Processor (9th Gen)	Processor
+Legion	Model
+Laptop	Category
+1 TB SSD	Disk
+Lenovo	Brand
+39.62 cm (15.6 inch) 	Dim
+64 bit Windows 10	OS
+8 GB DDR4 	RAM
+
+1 TB HDD|512 GB SSD	Disk
+8 GB DDR4 	RAM
+Inspiron	Model
+Laptop	Category
+64 bit Windows 10	OS
+Intel Core i5 Processor (10th Gen)	Processor
+Dell	Brand
+39.62 cm (15.6 inch) 	Dim
+
+4 GB DDR4 	RAM
+Laptop	Category
+35.56 cm (14 inch) 	Dim
+AMD APU Quad Core A12 Processor	Processor
+Asus	Brand
+1 TB HDD	Disk
+64 bit Windows 10	OS
+Vivo	Model
+
+512 GB SSD	Disk
+Avita	Brand
+Laptop	Category
+64 bit Windows 10	OS
+Intel Core i5 Processor (7th Gen)	Processor
+33.78 cm (13.3 inch) 	Dim
+8 GB DDR3 	RAM
+Liber	Model
+
+Laptop	Category
+Asus	Brand
+512 GB SSD	Disk
+Vivo	Model
+35.56 cm (14 inch) 	Dim
+Intel Core i5 Processor (8th Gen)	Processor
+8 GB DDR4 	RAM
+64 bit Windows 10	OS
+
+HP	Brand
+4 GB DDR4 	RAM
+1 TB HDD	Disk
+Intel Celeron Dual Core Processor	Processor
+D	OS
+Notebook	Model
+39.62 cm (15.6 inch) 	Dim
+Laptop	Category
+
+39.62 cm (15.6 inch) 	Dim
+Laptop	Category
+8 GB DDR4 	RAM
+MSI	Brand
+1 TB HDD	Disk
+Intel Core i5 Processor (8th Gen)	Processor
+Modern	Model
+64 bit Windows 10	OS
+
+Liber	Model
+Laptop	Category
+512 GB SSD	Disk
+8 GB DDR3 	RAM
+64 bit Windows 10	OS
+Avita	Brand
+Intel Core i5 Processor (7th Gen)	Processor
+33.78 cm (13.3 inch) 	Dim
+
+Laptop	Category
+4 GB DDR4 	RAM
+Intel Core i5 Processor (10th Gen)	Processor
+39.62 cm (15.6 inch) 	Dim
+Dell	Brand
+1 TB HDD|256 GB SSD	Disk
+Inspiron	Model
+64 bit Windows 10	OS
+
+39.62 cm (15.6 inch) 	Dim
+Intel Core i3 Processor (10th Gen)	Processor
+4 GB DDR4 	RAM
+ROG	Model
+Asus	Brand
+64 bit Windows 10	OS
+Laptop	Category
+512 GB SSD	Disk
+
+Vivo	Model
+Asus	Brand
+512 GB SSD	Disk
+8 GB DDR3 	RAM
+64 bit Windows 10	OS
+Intel Core i5 Processor (8th Gen)	Processor
+35.56 cm (14 inch) 	Dim
+Laptop	Category
+
+31.24 cm (12.3 inch) Touchscreen 	Dim
+Laptop	Category
+128 GB SSD	Disk
+4 GB LPDDR4X 	RAM
+Microsoft	Brand
+SurfacePro	Model
+Intel Core i3 Processor (10th Gen)	Processor
+64 bit Windows 10	OS
+
+Avita	Brand
+Laptop	Category
+256 GB SSD	Disk
+35.56 cm (14 inch) 	Dim
+Liber	Model
+64 bit Windows 10	OS
+Intel Core i5 Processor (8th Gen)	Processor
+8 GB DDR4 	RAM
+
+39.62 cm (15.6 inch) 	Dim
+Intel Core i5 Processor (9th Gen)	Processor
+Acer	Brand
+Laptop	Category
+64 bit Windows 10	OS
+1 TB HDD|256 GB SSD	Disk
+8 GB DDR4 	RAM
+Predator	Model
+
+39.62 cm (15.6 inch) 	Dim
+Laptop	Category
+Intel Core i3 Processor (6th Gen)	Processor
+Lenovo	Brand
+4 GB DDR4 	RAM
+Ideapad	Model
+1 TB HDD	Disk
+64 bit Windows 10	OS
+
+MacBook Air	Model
+128 GB SSD	Disk
+Mac	OS
+8 GB DDR3 	RAM
+Apple	Brand
+33.78 cm (13.3 inch) 	Dim
+Laptop	Category
+Intel Core i5 Processor (8th Gen)	Processor
+
+1 TB HDD|256 GB SSD	Disk
+Intel Core i7 Processor (8th Gen)	Processor
+35.56 cm (14 inch) 	Dim
+64 bit Windows 10	OS
+Laptop	Category
+Asus	Brand
+Vivo	Model
+8 GB DDR4 	RAM
+
+Intel Core i5 Processor (8th Gen)	Processor
+Laptop	Category
+64 bit Windows 10	OS
+Ideapad	Model
+39.62 cm (15.6 inch) 	Dim
+Lenovo	Brand
+4 GB DDR4 	RAM
+1 TB HDD	Disk
+
+Intel Core i5 Processor (8th Gen)	Processor
+64 bit Windows 10	OS
+ProBook	Model
+HP	Brand
+8 GB DDR4 	RAM
+1 TB HDD	Disk
+Laptop	Category
+35.56 cm (14 inch) 	Dim
+
+Laptop	Category
+64 bit Windows 10	OS
+Intel Core i3 Processor (8th Gen)	Processor
+Asus	Brand
+256 GB SSD	Disk
+Vivo	Model
+39.62 cm (15.6 inch) 	Dim
+4 GB DDR4 	RAM
+
+Intel Core i7 Processor (8th Gen)	Processor
+16 GB DDR4 	RAM
+Alienware	Brand
+43.94 cm (17.3 inch) 	Dim
+Laptop	Category
+Alienware	Model
+64 bit Windows 10	OS
+1 TB HDD|512 GB SSD	Disk
+
+Alienware	Model
+39.62 cm (15.6 inch) 	Dim
+32 GB DDR4 	RAM
+Laptop	Category
+Intel Core i9 Processor (8th Gen)	Processor
+64 bit Windows 10	OS
+Alienware	Brand
+1 TB HDD|1 TB SSD	Disk
+
+Alienware	Model
+Laptop	Category
+Alienware	Brand
+32 GB DDR4 	RAM
+43.94 cm (17.3 inch) 	Dim
+Intel Core i9 Processor (8th Gen)	Processor
+64 bit Windows 10	OS
+1 TB HDD|1 TB SSD	Disk
+
+Laptop	Category
+8 GB DDR3 	RAM
+ZenBook	Model
+64 bit Windows 10	OS
+512 GB SSD	Disk
+Asus	Brand
+Intel Core i7 Processor (8th Gen)	Processor
+33.78 cm (13.3 inch) 	Dim
+
+Laptop	Category
+Lenovo	Brand
+1 TB HDD	Disk
+Ideapad	Model
+39.62 cm (15.6 inch) 	Dim
+4 GB DDR4 	RAM
+64 bit Windows 10	OS
+Intel Core i5 Processor (8th Gen)	Processor
+
+2 TB HDD	Disk
+39.62 cm (15.6 inch) 	Dim
+Pavilion	Model
+8 GB DDR4 	RAM
+64 bit Windows 10	OS
+Intel Core i7 Processor (8th Gen)	Processor
+HP	Brand
+Laptop	Category
+
+AMD Ryzen 5 Quad Core Processor	Processor
+Inspiron	Model
+1 TB HDD	Disk
+39.62 cm (15.6 inch) 	Dim
+4 GB DDR4 	RAM
+Dell	Brand
+64 bit Windows 10	OS
+Laptop	Category
+
+Microsoft	Brand
+Laptop	Category
+SurfacePro	Model
+Intel Core i5 Processor (7th Gen)	Processor
+8 GB DDR3 	RAM
+128 GB SSD	Disk
+64 bit Windows 10	OS
+31.24 cm (12.3 inch) Touchscreen 	Dim
+
+64 bit Windows 10	OS
+Laptop	Category
+Vivo	Model
+Intel Core i3 Processor (10th Gen)	Processor
+Asus	Brand
+4 GB DDR4 	RAM
+512 GB SSD	Disk
+39.62 cm (15.6 inch) 	Dim
+
+39.62 cm (15.6 inch) 	Dim
+8 GB DDR4 	RAM
+Laptop	Category
+1 TB HDD|512 GB SSD	Disk
+Dell	Brand
+Inspiron	Model
+64 bit Windows 10	OS
+Intel Core i7 Processor (10th Gen)	Processor
+
+Apple	Brand
+16 GB DDR3 	RAM
+Intel Core i7 Processor (7th Gen)	Processor
+39.12 cm (15.4 inch) 	Dim
+MacBook Pro	Model
+64 bit Mac	OS
+Laptop	Category
+512 GB SSD	Disk
+
+ROG	Model
+Asus	Brand
+Laptop	Category
+64 bit Windows 10	OS
+1 TB SSD	Disk
+24 GB DDR4 	RAM
+39.62 cm (15.6 inch) 	Dim
+Intel Core i7 Processor (9th Gen)	Processor
+
+Apple	Brand
+512 GB SSD	Disk
+Laptop	Category
+16 GB DDR4 	RAM
+64 bit Mac	OS
+MacBook Pro	Model
+Intel Core i7 Processor (8th Gen)	Processor
+39.12 cm (15.4 inch) 	Dim
+
+39.62 cm (15.6 inch) 	Dim
+64 bit Windows 10	OS
+Acer	Brand
+8 GB DDR4 	RAM
+Nitro	Model
+Laptop	Category
+Intel Core i7 Processor (9th Gen)	Processor
+2 TB HDD|256 GB SSD	Disk
+
+1 TB HDD|256 GB SSD	Disk
+Laptop	Category
+Modern	Model
+39.62 cm (15.6 inch) 	Dim
+Intel Core i7 Processor (9th Gen)	Processor
+16 GB DDR4 	RAM
+64 bit Windows 10	OS
+MSI	Brand
+
+64 bit Windows 10	OS
+39.62 cm (15.6 inch) 	Dim
+1 TB HDD	Disk
+Laptop	Category
+4 GB DDR4 	RAM
+Intel Core i3 Processor (7th Gen)	Processor
+Inspiron	Model
+Dell	Brand
+
+4 GB DDR4 	RAM
+Laptop	Category
+HP	Brand
+64 bit Windows 10	OS
+1 TB HDD	Disk
+35.56 cm (14 inch) 	Dim
+Pavilion	Model
+Intel Core i5 Processor (8th Gen)	Processor
+
+Intel Core i5 Processor (8th Gen)	Processor
+Laptop	Category
+35.56 cm (14 inch) 	Dim
+8 GB DDR4 	RAM
+Liber	Model
+64 bit Windows 10	OS
+256 GB SSD	Disk
+Avita	Brand
+
+64 bit Windows 10	OS
+1 TB HDD	Disk
+4 GB DDR4 	RAM
+HP	Brand
+Intel Pentium Gold Processor	Processor
+Laptop	Category
+39.62 cm (15.6 inch) 	Dim
+EliteBook	Model
+
+1 TB HDD|128 GB SSD	Disk
+Pavilion	Model
+64 bit Windows 10	OS
+39.62 cm (15.6 inch) 	Dim
+Intel Core i7 Processor (8th Gen)	Processor
+Laptop	Category
+HP	Brand
+16 GB DDR4 	RAM
+
+Asus	Brand
+Vivo	Model
+64 bit Windows 10	OS
+Intel Core i5 Processor (8th Gen)	Processor
+8 GB DDR4 	RAM
+39.62 cm (15.6 inch) 	Dim
+512 GB SSD	Disk
+Laptop	Category
+
+Liber	Model
+Avita	Brand
+Laptop	Category
+35.56 cm (14 inch) 	Dim
+512 GB SSD	Disk
+64 bit Windows 10	OS
+8 GB DDR4 	RAM
+Intel Core i5 Processor (8th Gen)	Processor
+
+64 bit Windows 10	OS
+1 TB HDD|256 GB SSD	Disk
+AMD Ryzen 7 Quad Core Processor	Processor
+39.62 cm (15.6 inch) 	Dim
+Laptop	Category
+Gaming	Model
+16 GB DDR4 	RAM
+MSI	Brand
+
+1 TB HDD	Disk
+8 GB DDR4 	RAM
+Laptop	Category
+Lenovo	Brand
+39.62 cm (15.6 inch) 	Dim
+Ideapad	Model
+64 bit Windows 10	OS
+Intel Core i3 Processor (8th Gen)	Processor
+
+Laptop	Category
+Liber	Model
+35.56 cm (14 inch) 	Dim
+Avita	Brand
+Intel Core i5 Processor (8th Gen)	Processor
+64 bit Windows 10	OS
+8 GB DDR4 	RAM
+512 GB SSD	Disk
+
+512 GB SSD	Disk
+Avita	Brand
+Intel Core i5 Processor (8th Gen)	Processor
+Laptop	Category
+64 bit Windows 10	OS
+8 GB DDR4 	RAM
+35.56 cm (14 inch) 	Dim
+Liber	Model
+
+Liber	Model
+8 GB DDR4 	RAM
+Avita	Brand
+64 bit Windows 10	OS
+35.56 cm (14 inch) 	Dim
+Laptop	Category
+Intel Core i5 Processor (8th Gen)	Processor
+512 GB SSD	Disk
+
+MacBook Air	Model
+Mac	OS
+Apple	Brand
+8 GB DDR3 	RAM
+33.78 cm (13.3 inch) 	Dim
+Intel Core i5 Processor (8th Gen)	Processor
+Laptop	Category
+256 GB SSD	Disk
+
+39.62 cm (15.6 inch) 	Dim
+Ideapad	Model
+Laptop	Category
+4 GB DDR4 	RAM
+1 TB HDD	Disk
+Lenovo	Brand
+64 bit Windows 10	OS
+Intel APU Quad Core A6 Processor (9th Gen)	Processor
+
+35.56 cm (14 inch) 	Dim
+8 GB DDR4 	RAM
+Liber	Model
+Intel Core i5 Processor (8th Gen)	Processor
+64 bit Windows 10	OS
+512 GB SSD	Disk
+Laptop	Category
+Avita	Brand
+
+Intel Core i5 Processor (8th Gen)	Processor
+Avita	Brand
+Laptop	Category
+8 GB DDR4 	RAM
+64 bit Windows 10	OS
+35.56 cm (14 inch) 	Dim
+Liber	Model
+512 GB SSD	Disk
+
+8 GB DDR4 	RAM
+64 bit Windows 10	OS
+Laptop	Category
+35.56 cm (14 inch) 	Dim
+Intel Core i7 Processor (8th Gen)	Processor
+Liber	Model
+Avita	Brand
+256 GB SSD	Disk
+
+8 GB DDR4 	RAM
+Laptop	Category
+35.56 cm (14 inch) 	Dim
+256 GB SSD	Disk
+Liber	Model
+64 bit Windows 10	OS
+Avita	Brand
+Intel Core i7 Processor (8th Gen)	Processor
+
+256 GB SSD	Disk
+39.62 cm (15.6 inch) 	Dim
+4 GB DDR4 	RAM
+Intel Pentium Gold Processor (7th Gen)	Processor
+Laptop	Category
+64 bit Windows 10	OS
+Vivo	Model
+Asus	Brand
+
+256 GB SSD	Disk
+Avita	Brand
+Intel Core i7 Processor (8th Gen)	Processor
+Liber	Model
+64 bit Windows 10	OS
+35.56 cm (14 inch) 	Dim
+8 GB DDR4 	RAM
+Laptop	Category
+
+Acer	Brand
+Intel Core i5 Processor (8th Gen)	Processor
+Laptop	Category
+8 GB DDR4 	RAM
+Predator	Model
+39.62 cm (15.6 inch) 	Dim
+64 bit Windows 10	OS
+1 TB HDD|128 GB SSD	Disk
+
+4 GB DDR4 	RAM
+35.56 cm (14 inch) 	Dim
+Inspiron	Model
+Intel Core i3 Processor (7th Gen)	Processor
+Dell	Brand
+Laptop	Category
+64 bit Windows 10	OS
+1 TB HDD	Disk
+
+39.62 cm (15.6 inch) 	Dim
+Aspire	Model
+Acer	Brand
+64 bit Windows 10	OS
+Laptop	Category
+2 GB DDR3 	RAM
+500 GB HDD	Disk
+Intel Celeron Dual Core Processor	Processor
+
+35.56 cm (14 inch) 	Dim
+Avita	Brand
+Intel Core i5 Processor (8th Gen)	Processor
+Laptop	Category
+Liber	Model
+256 GB SSD	Disk
+8 GB DDR4 	RAM
+64 bit Windows 10	OS
+
+Ideapad	Model
+64 bit Windows 10	OS
+Lenovo	Brand
+4 GB DDR4 	RAM
+39.62 cm (15.6 inch) 	Dim
+AMD Ryzen 5 Quad Core Processor	Processor
+Laptop	Category
+1 TB HDD	Disk
+
+35.56 cm (14 inch) 	Dim
+1 TB HDD	Disk
+Dell	Brand
+Laptop	Category
+Intel Core i5 Processor (8th Gen)	Processor
+Vostro	Model
+64 bit Windows 10	OS
+8 GB DDR4 	RAM
+
+AMD APU Dual Core A6 Processor	Processor
+35.56 cm (14 inch) 	Dim
+Laptop	Category
+HP	Brand
+1 TB HDD	Disk
+4 GB DDR4 	RAM
+D	OS
+EliteBook	Model
+
+Avita	Brand
+35.56 cm (14 inch) 	Dim
+8 GB DDR4 	RAM
+64 bit Windows 10	OS
+Intel Core i3 Processor (8th Gen)	Processor
+128 GB SSD	Disk
+Laptop	Category
+Liber	Model
+
+64 bit Windows 10	OS
+Ideapad	Model
+39.62 cm (15.6 inch) 	Dim
+Intel Core i3 Processor (7th Gen)	Processor
+Laptop	Category
+4 GB DDR4 	RAM
+1 TB HDD	Disk
+Lenovo	Brand
+
+Laptop	Category
+Intel Core i7 Processor (9th Gen)	Processor
+Gaming	Model
+1 TB HDD|512 GB SSD	Disk
+MSI	Brand
+64 bit Windows 10	OS
+16 GB DDR4 	RAM
+39.62 cm (15.6 inch) 	Dim
+
+64 bit Windows 10	OS
+1 TB HDD|128 GB SSD	Disk
+39.62 cm (15.6 inch) 	Dim
+G	Model
+Laptop	Category
+Intel Core i7 Processor (8th Gen)	Processor
+16 GB DDR4 	RAM
+Dell	Brand
+
+Liber	Model
+8 GB DDR4 	RAM
+128 GB SSD	Disk
+Laptop	Category
+Intel Core i3 Processor (8th Gen)	Processor
+64 bit Windows 10	OS
+Avita	Brand
+35.56 cm (14 inch) 	Dim
+
+Acer	Brand
+Predator	Model
+64 bit Windows 10	OS
+Laptop	Category
+8 GB DDR4 	RAM
+Intel Core i7 Processor (9th Gen)	Processor
+2 TB HDD|256 GB SSD	Disk
+39.62 cm (15.6 inch) 	Dim
+
+Lenovo	Brand
+8 GB DDR4 	RAM
+64 bit Windows 10	OS
+Intel Core i5 Processor (9th Gen)	Processor
+Ideapad	Model
+39.62 cm (15.6 inch) 	Dim
+Laptop	Category
+512 GB SSD	Disk
+
+4 GB DDR4 	RAM
+64 bit Windows 10	OS
+500 GB HDD	Disk
+39.62 cm (15.6 inch) 	Dim
+Laptop	Category
+Intel Pentium Quad Core Processor	Processor
+Acer	Brand
+Aspire	Model
+
+35.56 cm (14 inch) 	Dim
+4 GB DDR4 	RAM
+D	OS
+ProBook	Model
+1 TB HDD	Disk
+HP	Brand
+Laptop	Category
+AMD Ryzen 3 Dual Core Processor	Processor
+
+64 bit Windows 10	OS
+Pavilion	Model
+HP	Brand
+Laptop	Category
+Intel Core i5 Processor (10th Gen)	Processor
+256 GB SSD	Disk
+8 GB DDR4 	RAM
+35.56 cm (14 inch) Touchscreen 	Dim
+
+64 bit Windows 10	OS
+1 TB HDD	Disk
+Notebook	Model
+39.62 cm (15.6 inch) 	Dim
+HP	Brand
+Intel Core i5 Processor (7th Gen)	Processor
+Laptop	Category
+4 GB DDR4 	RAM
+
+35.56 cm (14 inch) 	Dim
+256 GB SSD	Disk
+8 GB DDR4 	RAM
+64 bit Windows 10	OS
+Avita	Brand
+Laptop	Category
+Liber	Model
+Intel Core i5 Processor (8th Gen)	Processor
+
+Intel Core i5 Processor (10th Gen)	Processor
+64 bit Windows 10	OS
+HP	Brand
+8 GB DDR4 	RAM
+35.56 cm (14 inch) 	Dim
+Laptop	Category
+1 TB HDD|256 GB SSD	Disk
+Pavilion	Model
+
+Dell	Brand
+35.56 cm (14 inch) 	Dim
+Intel Core i5 Processor (8th Gen)	Processor
+Linux/Ubuntu	OS
+1 TB HDD	Disk
+Laptop	Category
+8 GB DDR4 	RAM
+Vostro	Model
+
+39.62 cm (15.6 inch) 	Dim
+Laptop	Category
+512 GB SSD	Disk
+16 GB DDR4 	RAM
+Inspiron	Model
+Intel Core i7 Processor (9th Gen)	Processor
+64 bit Windows 10	OS
+Dell	Brand
+
+35.56 cm (14 inch) Touchscreen 	Dim
+Pavilion	Model
+Laptop	Category
+4 GB DDR4 	RAM
+1 TB HDD|256 GB SSD	Disk
+Intel Core i3 Processor (8th Gen)	Processor
+64 bit Windows 10	OS
+HP	Brand
+
+AMD APU Quad Core A12 Processor	Processor
+Vivo	Model
+1 TB HDD	Disk
+Laptop	Category
+Asus	Brand
+4 GB DDR4 	RAM
+35.56 cm (14 inch) 	Dim
+64 bit Windows 10	OS
+
+Laptop	Category
+1 TB HDD	Disk
+HP	Brand
+Pavilion	Model
+AMD Ryzen 5 Quad Core Processor	Processor
+4 GB DDR4 	RAM
+64 bit Windows 10	OS
+39.62 cm (15.6 inch) 	Dim
+
+39.62 cm (15.6 inch) 	Dim
+64 bit Windows 10	OS
+Intel Celeron Dual Core Processor	Processor
+HP	Brand
+1 TB HDD	Disk
+4 GB DDR4 	RAM
+Zbook	Model
+Laptop	Category
+
+1 TB HDD	Disk
+39.62 cm (15.6 inch) 	Dim
+Laptop	Category
+D	OS
+Ideapad	Model
+4 GB DDR4 	RAM
+AMD APU Dual Core A6 Processor	Processor
+Lenovo	Brand
+
+1 TB HDD	Disk
+8 GB DDR4 	RAM
+39.62 cm (15.6 inch) 	Dim
+G	Model
+Dell	Brand
+Laptop	Category
+64 bit Windows 10	OS
+Intel Core i5 Processor (8th Gen)	Processor
+
+Predator	Model
+8 GB DDR3 	RAM
+256 GB SSD	Disk
+Acer	Brand
+35.56 cm (14 inch) Touchscreen 	Dim
+64 bit Windows 10	OS
+Laptop	Category
+Intel Core i5 Processor (8th Gen)	Processor
+
+Intel Core i5 Processor (7th Gen)	Processor
+4 GB DDR3 	RAM
+Smartron	Brand
+Laptop	Category
+128 GB SSD	Disk
+t-book	Model
+64 bit Windows 10	OS
+30.99 cm (12.2 inch) Touchscreen 	Dim
+
+MacBook Air	Model
+8 GB DDR3 	RAM
+Laptop	Category
+Apple	Brand
+Mac	OS
+Intel Core i5 Processor (8th Gen)	Processor
+128 GB SSD	Disk
+33.78 cm (13.3 inch) 	Dim
+
+Laptop	Category
+Aspire	Model
+1 TB HDD	Disk
+39.62 cm (15.6 inch) 	Dim
+4 GB DDR4 	RAM
+Intel Core i3 Processor (7th Gen)	Processor
+Acer	Brand
+64 bit Windows 10	OS
+
+4 GB DDR4 	RAM
+Laptop	Category
+1 TB HDD	Disk
+Ideapad	Model
+Lenovo	Brand
+39.62 cm (15.6 inch) 	Dim
+64 bit Windows 10	OS
+AMD APU Dual Core A9 Processor	Processor
+
+Intel Core i5 Processor (8th Gen)	Processor
+64 bit Windows 10	OS
+ZenBook	Model
+33.78 cm (13.3 inch) 	Dim
+Laptop	Category
+8 GB DDR4 	RAM
+512 GB SSD	Disk
+Asus	Brand
+
+Mac	OS
+256 GB SSD	Disk
+MacBook Air	Model
+Apple	Brand
+8 GB DDR3 	RAM
+Intel Core i5 Processor (8th Gen)	Processor
+Laptop	Category
+33.78 cm (13.3 inch) 	Dim
+
+39.62 cm (15.6 inch) 	Dim
+Intel Core i7 Processor (8th Gen)	Processor
+Dell	Brand
+1 TB HDD|256 GB SSD	Disk
+Inspiron	Model
+Laptop	Category
+8 GB DDR4 	RAM
+64 bit Windows 10	OS
+
+Laptop	Category
+Dell	Brand
+Inspiron	Model
+64 bit Windows 10	OS
+Intel Core i5 Processor (8th Gen)	Processor
+8 GB DDR4 	RAM
+39.62 cm (15.6 inch) 	Dim
+1 TB HDD|128 GB SSD	Disk
+
+Vivo	Model
+AMD Ryzen 5 Quad Core Processor	Processor
+35.56 cm (14 inch) 	Dim
+8 GB DDR4 	RAM
+64 bit Windows 10	OS
+1 TB HDD	Disk
+Asus	Brand
+Laptop	Category
+
+8 GB DDR4 	RAM
+1 TB HDD|8 GB SSD	Disk
+Laptop	Category
+35.56 cm (14 inch) Touchscreen 	Dim
+Intel Core i5 Processor (8th Gen)	Processor
+Pavilion	Model
+HP	Brand
+64 bit Windows 10	OS
+
+64 bit Windows 10	OS
+Inspiron	Model
+33.78 cm (13.3 inch) 	Dim
+Intel Core i7 Processor (8th Gen)	Processor
+Laptop	Category
+8 GB DDR4 	RAM
+256 GB SSD	Disk
+Dell	Brand
+
+Intel Core i3 Processor (7th Gen)	Processor
+4 GB DDR4 	RAM
+D	OS
+Notebook	Model
+1 TB HDD	Disk
+HP	Brand
+35.56 cm (14 inch) 	Dim
+Laptop	Category
+
+35.56 cm (14 inch) Touchscreen 	Dim
+Pavilion	Model
+8 GB DDR4 	RAM
+64 bit Windows 10	OS
+1 TB HDD	Disk
+HP	Brand
+Laptop	Category
+Intel Core i5 Processor (8th Gen)	Processor
+
+Laptop	Category
+256 GB SSD	Disk
+Avita	Brand
+35.56 cm (14 inch) 	Dim
+8 GB DDR3 	RAM
+Liber	Model
+Intel Core i5 Processor (7th Gen)	Processor
+64 bit Windows 10	OS
+
+64 bit Windows 10	OS
+Dell	Brand
+Inspiron	Model
+33.78 cm (13.3 inch) Touchscreen 	Dim
+8 GB DDR4 	RAM
+Intel Core i5 Processor (8th Gen)	Processor
+256 GB SSD	Disk
+Laptop	Category
+
+Dell	Brand
+Laptop	Category
+Vostro	Model
+39.62 cm (15.6 inch) 	Dim
+1 TB HDD	Disk
+Linux/Ubuntu	OS
+4 GB DDR4 	RAM
+Intel Core i3 Processor (7th Gen)	Processor
+
+64 bit Windows 10	OS
+39.62 cm (15.6 inch) 	Dim
+Asus	Brand
+Intel Core i5 Processor (8th Gen)	Processor
+1 TB HDD|256 GB SSD	Disk
+Laptop	Category
+ROG	Model
+8 GB DDR4 	RAM
+
+64 bit Windows 10	OS
+39.62 cm (15.6 inch) 	Dim
+Asus	Brand
+Laptop	Category
+Intel Core i3 Processor (7th Gen)	Processor
+4 GB DDR4 	RAM
+TUF Gaming	Model
+256 GB SSD	Disk
+
+35.56 cm (14 inch) 	Dim
+AMD Ryzen 5 Quad Core Processor (2nd Gen)	Processor
+512 GB SSD	Disk
+ZenBook	Model
+Asus	Brand
+64 bit Windows 10	OS
+8 GB DDR4 	RAM
+Laptop	Category
+
+Laptop	Category
+Intel Core i5 Processor (4th Gen)	Processor
+1 TB HDD	Disk
+Dell	Brand
+64 bit Windows 8.1	OS
+G	Model
+35.2 cm (13.86 inch) 	Dim
+4 GB DDR3 	RAM
+
+8 GB DDR4 	RAM
+64 bit Windows 10	OS
+Intel Core i7 Processor (8th Gen)	Processor
+39.62 cm (15.6 inch) 	Dim
+Dell	Brand
+G	Model
+1 TB HDD|128 GB SSD	Disk
+Laptop	Category
+
+8 GB DDR4 	RAM
+Intel Core i5 Processor (8th Gen)	Processor
+64 bit Windows 10	OS
+Inspiron	Model
+39.62 cm (15.6 inch) 	Dim
+Laptop	Category
+2 TB HDD	Disk
+Dell	Brand
+
+4 GB DDR4 	RAM
+64 bit Windows 10	OS
+Asus	Brand
+1 TB HDD	Disk
+AMD Ryzen 5 Quad Core Processor (7th Gen)	Processor
+39.62 cm (15.6 inch) 	Dim
+Laptop	Category
+Vivobook	Model
+
+Intel Core i5 Processor (8th Gen)	Processor
+39.62 cm (15.6 inch) 	Dim
+1 TB HDD|128 GB SSD	Disk
+8 GB DDR4 	RAM
+Laptop	Category
+HP	Brand
+64 bit Windows 10	OS
+Pavilion	Model
+
+Envy	Model
+512 GB SSD	Disk
+64 bit Windows 10	OS
+8 GB DDR4 	RAM
+HP	Brand
+Laptop	Category
+33.78 cm (13.3 inch) Touchscreen 	Dim
+AMD Ryzen 5 Quad Core Processor	Processor
+
+33.78 cm (13.3 inch) Touchscreen 	Dim
+16 GB DDR4 	RAM
+512 GB SSD	Disk
+Laptop	Category
+64 bit Windows 10	OS
+Envy	Model
+HP	Brand
+Intel Core i7 Processor (10th Gen)	Processor
+
+Intel Core i5 Processor (7th Gen)	Processor
+8 GB DDR3 	RAM
+33.78 cm (13.3 inch) 	Dim
+XPS	Model
+Laptop	Category
+Dell	Brand
+256 GB SSD	Disk
+64 bit Windows 10	OS
+
+4 GB DDR4 	RAM
+Laptop	Category
+Intel Core i3 Processor (7th Gen)	Processor
+64 bit Windows 10	OS
+Ideapad	Model
+Lenovo	Brand
+39.62 cm (15.6 inch) 	Dim
+1 TB HDD	Disk
+
+39.62 cm (15.6 inch) 	Dim
+1 TB HDD	Disk
+Intel Core i5 Processor (8th Gen)	Processor
+Vivo	Model
+Asus	Brand
+Laptop	Category
+8 GB DDR4 	RAM
+64 bit Windows 10	OS
+
+Apple	Brand
+Laptop	Category
+33.78 cm (13.3 inch) 	Dim
+Mac	OS
+128 GB SSD	Disk
+MacBook Air	Model
+Intel Core i5 Processor (5th Gen)	Processor
+8 GB 	RAM
+
+Inspiron	Model
+AMD Ryzen 3 Quad Core Processor	Processor
+64 bit Windows 10	OS
+Laptop	Category
+Dell	Brand
+39.62 cm (15.6 inch) 	Dim
+1 TB HDD	Disk
+4 GB DDR4 	RAM
+
+8 GB DDR4 	RAM
+Laptop	Category
+Intel Core i5 Processor (8th Gen)	Processor
+Lenovo	Brand
+1 TB HDD	Disk
+Ideapad	Model
+D	OS
+39.62 cm (15.6 inch) 	Dim
+
+1 TB HDD|512 GB SSD	Disk
+Intel Core i7 Processor (9th Gen)	Processor
+64 bit Windows 10	OS
+12 GB DDR4 	RAM
+Pavilion	Model
+Laptop	Category
+HP	Brand
+39.62 cm (15.6 inch) 	Dim
+
+1 TB HDD	Disk
+Laptop	Category
+Lenovo	Brand
+64 bit Windows 10	OS
+Intel Core i5 Processor (8th Gen)	Processor
+Ideapad	Model
+8 GB DDR4 	RAM
+39.62 cm (15.6 inch) 	Dim
+
+Dell	Brand
+Laptop	Category
+Inspiron	Model
+64 bit Windows 10	OS
+8 GB DDR4 	RAM
+Intel Core i5 Processor (8th Gen)	Processor
+39.62 cm (15.6 inch) 	Dim
+2 TB HDD	Disk
+
+12 GB DDR4 	RAM
+Pavilion	Model
+1 TB HDD|512 GB SSD	Disk
+64 bit Windows 10	OS
+Intel Core i7 Processor (9th Gen)	Processor
+HP	Brand
+39.62 cm (15.6 inch) 	Dim
+Laptop	Category
+
+4 GB DDR4 	RAM
+Intel Core i3 Processor (7th Gen)	Processor
+1 TB HDD	Disk
+Ideapad	Model
+64 bit Windows 10	OS
+39.62 cm (15.6 inch) 	Dim
+Laptop	Category
+Lenovo	Brand
+
+4 GB DDR4 	RAM
+64 bit Windows 10	OS
+Laptop	Category
+Dell	Brand
+39.62 cm (15.6 inch) 	Dim
+Intel Core i3 Processor (8th Gen)	Processor
+Inspiron	Model
+1 TB HDD	Disk
+
+HP	Brand
+512 GB SSD	Disk
+Intel Core i7 Processor (8th Gen)	Processor
+Laptop	Category
+Pavilion	Model
+35.56 cm (14 inch) 	Dim
+8 GB DDR4 	RAM
+64 bit Windows 10	OS
+
+Aspire	Model
+1 TB HDD	Disk
+39.62 cm (15.6 inch) 	Dim
+Laptop	Category
+8 GB DDR4 	RAM
+Acer	Brand
+64 bit Windows 10	OS
+Intel Core i5 Processor (7th Gen)	Processor
+
+Inspiron	Model
+2 TB HDD|128 GB SSD	Disk
+Dell	Brand
+Laptop	Category
+64 bit Windows 10	OS
+8 GB DDR4 	RAM
+Intel Core i7 Processor (8th Gen)	Processor
+39.62 cm (15.6 inch) 	Dim
+
+33.78 cm (13.3 inch) 	Dim
+Asus	Brand
+ZenBook	Model
+64 bit Windows 10	OS
+512 GB SSD	Disk
+Intel Core i5 Processor (8th Gen)	Processor
+8 GB DDR3 	RAM
+Laptop	Category
+
+HP	Brand
+Laptop	Category
+1 TB HDD|256 GB SSD	Disk
+8 GB DDR4 	RAM
+64 bit Windows 10	OS
+Intel Core i5 Processor (8th Gen)	Processor
+Pavilion	Model
+39.62 cm (15.6 inch) 	Dim
+
+Intel Core i3 Processor (7th Gen)	Processor
+Pavilion	Model
+1 TB HDD	Disk
+8 GB DDR4 	RAM
+HP	Brand
+Laptop	Category
+64 bit Windows 10	OS
+39.62 cm (15.6 inch) 	Dim
+
+39.62 cm (15.6 inch) 	Dim
+D	OS
+4 GB DDR3 	RAM
+1 TB HDD	Disk
+Intel Pentium Quad Core Processor	Processor
+Ideapad	Model
+Laptop	Category
+Lenovo	Brand
+
+HP	Brand
+Envy	Model
+1 TB HDD	Disk
+Laptop	Category
+Intel Core i3 Processor (7th Gen)	Processor
+4 GB DDR4 	RAM
+D	OS
+39.62 cm (15.6 inch) 	Dim
+
+Lenovo	Brand
+Laptop	Category
+2 TB HDD	Disk
+8 GB DDR4 	RAM
+64 bit Windows 10	OS
+39.62 cm (15.6 inch) 	Dim
+Intel Core i5 Processor (8th Gen)	Processor
+Ideapad	Model
+
+Laptop	Category
+4 GB DDR4 	RAM
+500 GB HDD	Disk
+Lenovo	Brand
+64 bit Windows 10	OS
+Intel Core i3 Processor (7th Gen)	Processor
+ThinkPad X Series	Model
+35.56 cm (14 inch) 	Dim
+
+Intel Core i7 Processor (7th Gen)	Processor
+Laptop	Category
+35.56 cm (14 inch) 	Dim
+AGB	Brand
+1 TB HDD|512 GB SSD	Disk
+64 bit Windows 10	OS
+Orion	Model
+8 GB DDR4 	RAM
+
+4 GB DDR4 	RAM
+Ideapad	Model
+1 TB HDD	Disk
+64 bit Windows 10	OS
+35.56 cm (14 inch) 	Dim
+Intel Core i3 Processor (7th Gen)	Processor
+Laptop	Category
+Lenovo	Brand
+
+HP	Brand
+Pavilion	Model
+39.62 cm (15.6 inch) 	Dim
+4 GB DDR4 	RAM
+D	OS
+Laptop	Category
+1 TB HDD	Disk
+Intel Core i5 Processor (7th Gen)	Processor
+
+HP	Brand
+4 GB DDR4 	RAM
+Zbook	Model
+Laptop	Category
+64 bit Windows 10	OS
+1 TB HDD	Disk
+Intel Core i5 Processor (7th Gen)	Processor
+39.62 cm (15.6 inch) 	Dim
+
+Intel Core i3 Processor (7th Gen)	Processor
+Laptop	Category
+HP	Brand
+35.56 cm (14 inch) 	Dim
+64 bit Windows 10	OS
+Envy	Model
+1 TB HDD	Disk
+4 GB DDR4 	RAM
+
+Ideapad	Model
+64 bit Windows 10	OS
+39.62 cm (15.6 inch) 	Dim
+1 TB HDD	Disk
+Laptop	Category
+Lenovo	Brand
+8 GB DDR4 	RAM
+Intel Core i5 Processor (8th Gen)	Processor
+
+Inspiron	Model
+4 GB DDR4 	RAM
+Dell	Brand
+39.62 cm (15.6 inch) 	Dim
+2 TB HDD	Disk
+Laptop	Category
+Intel Core i5 Processor (8th Gen)	Processor
+64 bit Windows 10	OS
+
+HP	Brand
+Laptop	Category
+Intel Core i3 Processor (8th Gen)	Processor
+35.56 cm (14 inch) Touchscreen 	Dim
+4 GB DDR4 	RAM
+1 TB HDD|8 GB SSD	Disk
+64 bit Windows 10	OS
+Pavilion	Model
+
+35.56 cm (14 inch) 	Dim
+Asus	Brand
+64 bit Windows 10	OS
+1 TB SSD	Disk
+16 GB DDR3 	RAM
+Laptop	Category
+ZenBook	Model
+Intel Core i7 Processor (10th Gen)	Processor
+
+Laptop	Category
+8 GB DDR4 	RAM
+Intel Core i5 Processor (8th Gen)	Processor
+Pavilion	Model
+HP	Brand
+64 bit Windows 10	OS
+1 TB HDD	Disk
+39.62 cm (15.6 inch) 	Dim
+
+Intel Core i3 Processor (7th Gen)	Processor
+39.62 cm (15.6 inch) 	Dim
+Laptop	Category
+Vivo	Model
+Asus	Brand
+64 bit Windows 10	OS
+8 GB DDR4 	RAM
+1 TB HDD	Disk
+
+Envy	Model
+4 GB DDR4 	RAM
+64 bit Windows 10	OS
+Laptop	Category
+35.56 cm (14 inch) 	Dim
+1 TB HDD	Disk
+Intel Core i3 Processor (7th Gen)	Processor
+HP	Brand
+
+8 GB DDR4 	RAM
+Intel Core i5 Processor (8th Gen)	Processor
+39.62 cm (15.6 inch) 	Dim
+1 TB HDD	Disk
+D	OS
+HP	Brand
+Pavilion	Model
+Laptop	Category
+
+64 bit Windows 10	OS
+Microsoft	Brand
+Intel Core i5 Processor (8th Gen)	Processor
+128 GB SSD	Disk
+31.24 cm (12.3 inch) Touchscreen 	Dim
+Laptop	Category
+SurfacePro	Model
+8 GB DDR3 	RAM
+
+Laptop	Category
+4 GB DDR4 	RAM
+Vivo	Model
+1 TB HDD	Disk
+Intel Core i3 Processor (7th Gen)	Processor
+39.62 cm (15.6 inch) 	Dim
+64 bit Windows 10	OS
+Asus	Brand
+
+256 GB SSD	Disk
+Intel Core i5 Processor (8th Gen)	Processor
+64 bit Windows 10	OS
+XPS	Model
+Laptop	Category
+8 GB DDR3 	RAM
+Dell	Brand
+33.02 cm (13 inch) 	Dim
+
+1 TB HDD	Disk
+64 bit Windows 10	OS
+Asus	Brand
+Intel Core i5 Processor (8th Gen)	Processor
+ZenBook	Model
+Laptop	Category
+8 GB DDR4 	RAM
+39.62 cm (15.6 inch) 	Dim
+
+1 TB HDD	Disk
+39.62 cm (15.6 inch) 	Dim
+8 GB DDR4 	RAM
+Vivo	Model
+64 bit Windows 10	OS
+Asus	Brand
+AMD Ryzen 5 Quad Core Processor	Processor
+Laptop	Category
+
+Laptop	Category
+Ideapad	Model
+Lenovo	Brand
+39.62 cm (15.6 inch) 	Dim
+Intel Core i5 Processor (8th Gen)	Processor
+512 GB SSD	Disk
+64 bit Windows 10	OS
+8 GB DDR4 	RAM
+
+1 TB HDD	Disk
+Lenovo	Brand
+4 GB DDR4 	RAM
+Ideapad	Model
+Intel Core i3 Processor (7th Gen)	Processor
+64 bit Windows 10	OS
+39.62 cm (15.6 inch) 	Dim
+Laptop	Category
+
+HP	Brand
+Intel Core i7 Processor (10th Gen)	Processor
+Laptop	Category
+64 bit Windows 10	OS
+EliteBook	Model
+16 GB DDR4 	RAM
+512 GB SSD	Disk
+39.62 cm (15.6 inch) Touchscreen 	Dim
+
+Intel Core i3 Processor (8th Gen)	Processor
+XPS	Model
+64 bit Linux/Ubuntu	OS
+Dell	Brand
+Laptop	Category
+8 GB DDR4 	RAM
+1 TB HDD	Disk
+35.56 cm (14 inch) 	Dim
+
+64 bit Windows 10	OS
+EliteBook	Model
+HP	Brand
+Intel Core i7 Processor (8th Gen)	Processor
+512 GB SSD	Disk
+33.78 cm (13.3 inch) Touchscreen 	Dim
+16 GB DDR4 	RAM
+Laptop	Category
+
+Laptop	Category
+1 TB HDD	Disk
+35.56 cm (14 inch) 	Dim
+64 bit D	OS
+4 GB DDR4 	RAM
+Lenovo	Brand
+Intel Core i3 Processor (7th Gen)	Processor
+Ideapad	Model
+
+HP	Brand
+Intel Core i5 Processor (8th Gen)	Processor
+Laptop	Category
+64 bit Windows 10	OS
+33.78 cm (13.3 inch) Touchscreen 	Dim
+256 GB SSD	Disk
+8 GB DDR4 	RAM
+ProBook	Model
+
+Acer	Brand
+1 TB HDD	Disk
+4 GB DDR4 	RAM
+AMD APU Dual Core A4 Processor	Processor
+64 bit Windows 10	OS
+Laptop	Category
+39.62 cm (15.6 inch) 	Dim
+Aspire	Model
+
+Dell	Brand
+1 TB HDD	Disk
+Vostro	Model
+35.56 cm (14 inch) 	Dim
+Laptop	Category
+Intel Core i3 Processor (8th Gen)	Processor
+4 GB DDR4 	RAM
+64 bit Windows 10	OS
+
+39.62 cm (15.6 inch) 	Dim
+4 GB DDR4 	RAM
+64 bit Windows 10	OS
+Laptop	Category
+1 TB HDD	Disk
+Acer	Brand
+Aspire	Model
+AMD APU Dual Core A4 Processor (7th Gen)	Processor
+
+39.62 cm (15.6 inch) 	Dim
+64 bit D	OS
+Intel Core i3 Processor (7th Gen)	Processor
+Pavilion	Model
+HP	Brand
+4 GB DDR4 	RAM
+1 TB HDD	Disk
+Laptop	Category
+
+Intel Core i5 Processor (8th Gen)	Processor
+64 bit Windows 10	OS
+8 GB DDR4 	RAM
+Laptop	Category
+Pavilion	Model
+39.62 cm (15.6 inch) 	Dim
+HP	Brand
+1 TB HDD|8 GB SSD	Disk
+
+Intel Core i3 Processor (6th Gen)	Processor
+Dell	Brand
+Vostro	Model
+4 GB DDR3 	RAM
+39.62 cm (15.6 inch) 	Dim
+Laptop	Category
+64 bit Windows 10	OS
+1 TB HDD	Disk
+
+64 bit Windows 10	OS
+4 GB DDR4 	RAM
+Intel Core i3 Processor (7th Gen)	Processor
+39.62 cm (15.6 inch) 	Dim
+HP	Brand
+Pavilion	Model
+1 TB HDD	Disk
+Laptop	Category
+
+Asus	Brand
+4 GB DDR4 	RAM
+35.56 cm (14 inch) 	Dim
+Vivo	Model
+64 bit D	OS
+Intel Core i3 Processor (7th Gen)	Processor
+1 TB HDD	Disk
+Laptop	Category
+
+Acer	Brand
+Laptop	Category
+39.62 cm (15.6 inch) 	Dim
+Intel Core i5 Processor (8th Gen)	Processor
+64 bit Windows 10	OS
+1 TB HDD	Disk
+Aspire	Model
+8 GB DDR4 	RAM
+
+39.62 cm (15.6 inch) 	Dim
+Intel Core i7 Processor (8th Gen)	Processor
+HP	Brand
+1 TB HDD|256 GB SSD	Disk
+16 GB DDR4 	RAM
+Zbook	Model
+Laptop	Category
+64 bit Windows 10	OS
+
+Intel Core i5 Processor (8th Gen)	Processor
+Linux/Ubuntu	OS
+Laptop	Category
+Vostro	Model
+1 TB HDD	Disk
+Dell	Brand
+39.62 cm (15.6 inch) 	Dim
+4 GB DDR4 	RAM
+
+8 GB DDR4 	RAM
+Inspiron	Model
+39.62 cm (15.6 inch) 	Dim
+AMD Ryzen 5 Quad Core Processor	Processor
+Dell	Brand
+Laptop	Category
+64 bit Windows 10	OS
+1 TB HDD	Disk
+
+Intel Core i3 Processor (8th Gen)	Processor
+35.56 cm (14 inch) 	Dim
+1 TB HDD	Disk
+4 GB DDR4 	RAM
+Laptop	Category
+64 bit Windows 10	OS
+Ideapad	Model
+Lenovo	Brand
+
+1 TB HDD|1 TB SSD	Disk
+Orion	Model
+35.56 cm (14 inch) 	Dim
+AGB	Brand
+Laptop	Category
+64 bit Windows 10	OS
+Intel Core i7 Processor (7th Gen)	Processor
+16 GB DDR4 	RAM
+
+1 TB HDD	Disk
+Intel Core i5 Processor (4th Gen)	Processor
+Laptop	Category
+Lenovo	Brand
+ThinkPad L Series	Model
+39.62 cm (15.6 inch) 	Dim
+D	OS
+4 GB DDR3 	RAM
+
+64 bit Windows 10	OS
+4 GB DDR3 	RAM
+Intel Core i5 Processor (6th Gen)	Processor
+Lenovo	Brand
+1 TB HDD	Disk
+Laptop	Category
+Ideapad	Model
+35.56 cm (14 inch) 	Dim
+
+Intel Core i7 Processor (8th Gen)	Processor
+64 bit Windows 10	OS
+Lenovo	Brand
+39.62 cm (15.6 inch) 	Dim
+1 TB HDD	Disk
+8 GB DDR4 	RAM
+Laptop	Category
+Ideapad	Model
+
+Lenovo	Brand
+39.62 cm (15.6 inch) 	Dim
+Ideapad	Model
+4 GB DDR3 	RAM
+1 TB HDD	Disk
+64 bit Windows 10	OS
+Laptop	Category
+AMD APU Quad Core A6 Processor	Processor
+
+39.62 cm (15.6 inch) 	Dim
+Intel Pentium Quad Core Processor (4th Gen)	Processor
+4 GB DDR3 	RAM
+D	OS
+Legion	Model
+Laptop	Category
+Lenovo	Brand
+500 GB HDD	Disk
+
+Intel Core i3 Processor (7th Gen)	Processor
+1 TB HDD	Disk
+Lenovo	Brand
+Laptop	Category
+4 GB DDR4 	RAM
+D	OS
+39.62 cm (15.6 inch) 	Dim
+Ideapad	Model
