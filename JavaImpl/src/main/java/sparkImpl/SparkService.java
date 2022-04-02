@@ -117,10 +117,11 @@ public class SparkService {
         w.start();
         var dataset = readFile(fileName);
         dataset = applyNER_UDF(dataset,columnName);
-        var freqItems  = fpGrowth(dataset,"items",0.0005).cache();
-        Set<Tuple<Integer,Integer>> pairs= doBlocking(dataset,freqItems);
-        System.out.println(pairs.size());
-        evaluate(evaluationFileName, pairs);
+        dataset.show(false);
+//        var freqItems  = fpGrowth(dataset,"items",0.0005).cache();
+//        Set<Tuple<Integer,Integer>> pairs= doBlocking(dataset,freqItems);
+//        System.out.println(pairs.size());
+//        evaluate(evaluationFileName, pairs);
         w.stop();
         System.out.println("total time "+ w);
     }
