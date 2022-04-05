@@ -43,7 +43,7 @@ def compute_recall(X, Y):
 
 def block_X2(X):
     # build index from patterns to tuples
-    pattern2id = [defaultdict(list) for _ in range(7)]
+    pattern2id = [defaultdict(list) for _ in range(9)]
     for i in tqdm(range(X.shape[0])):
         name = str(X["name"][i])
         price = X['price'][i]
@@ -68,11 +68,19 @@ def block_X2(X):
         pattern2id[4][pattern_5].append(i)
 
         if category and brand:
-            p = category.lower() + brand.lower()
+            p = category.lower()[:3] + brand.lower()[:3]
             pattern2id[5][p].append(i)
-        if description:
-            pattern_7 = "".join(sorted([str(it).lower() for it in description.split(" ")[:3]]))
-            pattern2id[6][pattern_7].append(i)
+        pattern_7 = "".join(sorted([str(it).lower() for it in name.split(" ")[3:5]]))
+        pattern2id[6][pattern_7].append(i)
+        pattern_8 = "".join(sorted([str(it).lower() for it in name.split(" ")[-6:-3]]))
+        pattern2id[6][pattern_8].append(i)
+        # if description:
+        #     pattern_7 = "".join(sorted([str(it).lower() for it in description.split(" ")[-3:]]))
+        #     pattern2id[6][pattern_7].append(i)
+        #     pattern_8 = "".join(sorted([str(it).lower() for it in description.split(" ")[:3]]))
+        #     pattern2id[7][pattern_8].append(i)
+        #     pattern_9 = sum([int(d) for d in re.findall(r"\d+", description)])
+        #     pattern2id[8][pattern_9].append(i)
 
     # add id pairs that share the same pattern to candidate set
     candidate_pairs_real_ids = []
@@ -81,9 +89,7 @@ def block_X2(X):
     for p2id in pattern2id:
         ii += 1
         for pattern in tqdm(p2id):
-            if len(p2id[pattern]) > 100:
-                print('did not make it '+ pattern)
-            else:
+            if len(p2id[pattern]) < 100:
                 ids = sorted(p2id[pattern])
                 for i in range(len(ids)):
                     for j in range(i + 1, len(ids)):
@@ -159,12 +165,13 @@ if __name__ == "__main__":
     X2_candidate_pairs = block_X2(X2)
     print(len(X1_candidate_pairs))
     print(len(X2_candidate_pairs))
-
+    print(f'CANDIDATE PAIRS X1 :{len(X1_candidate_pairs)}')
+    print(f'CANDIDATE PAIRS X2 :{len(X2_candidate_pairs)}')
     # save results
     save_output(X1_candidate_pairs, X2_candidate_pairs)
-    print(time.time() - s)
-    rc1 = compute_recall(X1_candidate_pairs, pd.read_csv("Y1.csv"))
-    print(f'X1 Recall: {rc1}')
-    rc2 = compute_recall(X2_candidate_pairs, pd.read_csv("Y2.csv"))
-    print(f'X2 Recall: {rc2}')
-    print(f'Average Recall: {rc1 * 1 / 3 + rc2 * 2 / 3}')
+    # print(time.time() - s)
+    # rc1 = compute_recall(X1_candidate_pairs, pd.read_csv("Y1.csv"))
+    # print(f'X1 Recall: {rc1}')
+    # rc2 = compute_recall(X2_candidate_pairs, pd.read_csv("Y2.csv"))
+    # print(f'X2 Recall: {rc2}')
+    # print(f'Average Recall: {rc1 * 1 / 3 + rc2 * 2 / 3}')
