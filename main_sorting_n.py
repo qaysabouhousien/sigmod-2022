@@ -63,7 +63,7 @@ def block_with_attr(X: DataFrame, attr, jeccard_threshold, jeccard_tolerance):
             X = X.sort_values(by=['NER_TEXT'])
         if op == 1:
             X = X.sort_values(by=['NER_TEXT_REV'])
-        if op == 3:
+        if op == 2:
             X = X.sort_values(by=['NER_TEXT_MID'])
         # if op == 2:
         #     X = X.sort_values(by=['NER_SIZE'])
