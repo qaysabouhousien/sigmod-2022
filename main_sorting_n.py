@@ -1,5 +1,6 @@
 import re
 import time
+from difflib import get_close_matches
 
 import pandas as pd
 import spacy
@@ -30,23 +31,42 @@ def jeccard(s1: set, s2: set):
     return intersection / union
 
 
+def common_prefix_length(short: list, long: list):
+    c = 0
+    for i in range(len(short)):
+        if short[i] == long[i]:
+            c += 1
+        else:
+            break
+    return c
+
+
+def sort_from_mid(x: []):
+    mid = x[len(x) // 2]
+
+
 def block_with_attr(X: DataFrame, attr, jeccard_threshold, jeccard_tolerance):
     s = time.time()
     X['NER'] = X[attr].parallel_apply(apply_ner)
     print(f'NER TIME : {time.time() - s}')
+    # NERs are sorted in ASC order
     X['NER_TEXT'] = X['NER'].parallel_apply(lambda x: ' '.join(x))
+    # sort NERs in DESC order
     X['NER_TEXT_REV'] = X['NER'].parallel_apply(lambda x: ' '.join(x[::-1]))
     X['NER_TEXT_MID'] = X['NER'].parallel_apply(
-        lambda x: ' '.join(x[len(x) // 2 - len(x) // 5: len(x) // 2 + len(x) // 5]))
+        lambda x: ' '.join(get_close_matches(x[len(x) // 2], x, cutoff=0, n=len(x))))
+    # X['NER_SIZE'] = X['NER'].parallel_apply(len)
     candidate_pairs_real_ids = set()
     s = time.time()
-    for op in range(2):
+    for op in range(3):
         if op == 0:
             X = X.sort_values(by=['NER_TEXT'])
         if op == 1:
             X = X.sort_values(by=['NER_TEXT_REV'])
-        if op == 2:
+        if op == 3:
             X = X.sort_values(by=['NER_TEXT_MID'])
+        # if op == 2:
+        #     X = X.sort_values(by=['NER_SIZE'])
         block = X['id'].values
         block_ner = [set(n) for n in X['NER'].values]
         for j in range(len(block)):
@@ -68,8 +88,44 @@ def block_with_attr(X: DataFrame, attr, jeccard_threshold, jeccard_tolerance):
     return [p[0] for p in candidate_pairs_real_ids]
 
 
-def save_output(X1_candidate_pairs,
-                X2_candidate_pairs):  # save the candset for both datasets to a SINGLE file output.csv
+def block_with_attr_2(X: DataFrame, attr, common_entities_lim, jeccard_tolerance):
+    s = time.time()
+    X['NER'] = X[attr].parallel_apply(apply_ner)
+    print(f'NER TIME : {time.time() - s}')
+    # NERs are sorted in ASC order
+    X['NER_TEXT'] = X['NER'].parallel_apply(lambda x: ' '.join(x))
+    # sort NERs in DESC order
+    X['NER_TEXT_REV'] = X['NER'].parallel_apply(lambda x: ' '.join(x[::-1]))
+    candidate_pairs_real_ids = set()
+    s = time.time()
+    for op in range(2):
+        if op == 0:
+            X = X.sort_values(by=['NER_TEXT'])
+        if op == 1:
+            X = X.sort_values(by=['NER_TEXT_REV'])
+        block = X['id'].values
+        block_ner = [set(n) for n in X['NER'].values]
+        for j in range(len(block)):
+            jeccard_passed = 0
+            for k in range(j + 1, len(block)):
+                if jeccard_passed > jeccard_tolerance:
+                    break
+                intersection = len(block_ner[j].intersection(block_ner[k]))
+                if intersection < common_entities_lim:
+                    jeccard_passed += 1
+                    continue
+                id1, id2 = block[j], block[k]
+                if id2 > id1:
+                    candidate_pairs_real_ids.add(((id1, id2), intersection))
+                else:
+                    candidate_pairs_real_ids.add(((id2, id1), intersection))
+    print(f'SORTING NEIGHBORS TIME: {time.time() - s}')
+    candidate_pairs_real_ids = sorted(candidate_pairs_real_ids, key=lambda x: x[1], reverse=True)
+    return [p[0] for p in candidate_pairs_real_ids]
+
+
+def save_output(X1_candidate_pairs, X2_candidate_pairs):
+    # save the candset for both datasets to a SINGLE file output.csv
     expected_cand_size_X1 = 1000000
     expected_cand_size_X2 = 2000000
 
@@ -90,6 +146,15 @@ def save_output(X1_candidate_pairs,
     # In evaluation, we expect output.csv to include exactly 3000000 tuple pairs.
     # we expect the first 1000000 pairs are for dataset X1, and the remaining pairs are for dataset X2
     output_df.to_csv("output.csv", index=False)
+
+
+def compute_precision(X, Y):
+    c = 0
+    st = {tuple(i) for i in Y.to_numpy()}
+    for pair in X:
+        if pair in st:
+            c += 1
+    return c / len(X)
 
 
 def compute_recall(X, Y):
@@ -114,17 +179,18 @@ if __name__ == "__main__":
     #  ORACLES :::
     # X1_candidate_pairs = block_with_attr(X1, "title", 0.06, 192)
     # X2_candidate_pairs = block_with_attr(X2, "name", 0, 1)
-    X1_candidate_pairs = block_with_attr(X1, "title", 0.4, 10)
-    X2_candidate_pairs = block_with_attr(X2, "name", 0.4, 10)
+    X1_candidate_pairs = block_with_attr(X1, "title", .4, 5)
+    X2_candidate_pairs = block_with_attr(X2, "name", .3, 100)
     #
     # # save results
-    save_output(X1_candidate_pairs, X2_candidate_pairs)
-    # e = time.time()
-    # print(f'CANDIDATE PAIRS X1 :{len(X1_candidate_pairs)}')
-    # print(f'CANDIDATE PAIRS X2 :{len(X2_candidate_pairs)}')
-    # print(f'TOTAL TIME : {e - s}')
-    # # #
-    # print(f'X1 Recall: {compute_recall(X1_candidate_pairs, pd.read_csv("Y1.csv"))}')
-    # print(f'X2 Recall: {compute_recall(X2_candidate_pairs, pd.read_csv("Y2.csv"))}')
-
-# ER TIME : 662.4942457675934
+    # save_output(X1_candidate_pairs, X2_candidate_pairs)
+    e = time.time()
+    print(f'CANDIDATE PAIRS X1 :{len(X1_candidate_pairs)}')
+    print(f'CANDIDATE PAIRS X2 :{len(X2_candidate_pairs)}')
+    print(f'TOTAL TIME : {e - s}')
+    Y1 = pd.read_csv("Y1.csv")
+    Y2 = pd.read_csv("Y2.csv")
+    print(
+        f'X1 Recall: {round(compute_recall(X1_candidate_pairs, Y1), 3)} PRECISION: {round(compute_precision(X1_candidate_pairs, Y1), 3)}')
+    print(
+        f'X2 Recall: {round(compute_recall(X2_candidate_pairs, Y2), 3)} PRECISION: {round(compute_precision(X2_candidate_pairs, Y2), 3)}')
