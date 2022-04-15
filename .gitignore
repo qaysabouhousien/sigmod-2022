@@ -1,2 +1,4 @@
 *.class
 idea/
+.reprozip-trace/
+submission.rpz
