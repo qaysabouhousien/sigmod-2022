@@ -18,8 +18,15 @@ def apply_ner(text):
     entities_text = set()
     for entity in entities:
         lower = entity.text.lower()
-        if lower not in stopwords and not re.match(r'[^A-Za-z]', lower):
-            entities_text.add(lower)
+        # if lower not in stopwords and not re.match(r'[^A-Za-z]', lower):
+        #     # if lower in entities_text:
+        #     #     for i in range(3):
+        #     #         new_e = lower+f"_{i}"
+        #     #         if new_e not in entities_text:
+        #     #             entities_text.add(new_e)
+        #     #             break
+        #     # else:
+        entities_text.add(lower)
     return sorted(entities_text)
 
 
@@ -43,6 +50,94 @@ def common_prefix_length(short: list, long: list):
 
 def sort_from_mid(x: []):
     mid = x[len(x) // 2]
+
+
+def block_with_attr_eval(X: DataFrame, attr, jeccard_threshold, jeccard_tolerance):
+    s = time.time()
+    X['NER'] = X[attr].parallel_apply(apply_ner)
+    print(f'NER TIME : {time.time() - s}')
+    # NERs are sorted in ASC order
+    X['NER_TEXT'] = X['NER'].parallel_apply(lambda x: ' '.join(x))
+    # sort NERs in DESC order
+    X['NER_TEXT_REV'] = X['NER'].parallel_apply(lambda x: ' '.join(x[::-1]))
+    X['NER_TEXT_MID'] = X['NER'].parallel_apply(
+        lambda x: ' '.join(get_close_matches(x[len(x) // 2], x, cutoff=0, n=len(x))))
+    # X['NER_SIZE'] = X['NER'].parallel_apply(len)
+    candidate_pairs_real_ids = set()
+    s = time.time()
+    for op in range(3):
+        if op == 0:
+            X = X.sort_values(by=['NER_TEXT'])
+        if op == 1:
+            X = X.sort_values(by=['NER_TEXT_REV'])
+        if op == 2:
+            X = X.sort_values(by=['NER_TEXT_MID'])
+        # if op == 2:
+        #     X = X.sort_values(by=['NER_SIZE'])
+        block = X['id'].values
+        block_ner = [set(n) for n in X['NER'].values]
+        for j in range(len(block)):
+            jeccard_passed = 0
+            for k in range(j + 1, len(block)):
+                if jeccard_passed > jeccard_tolerance:
+                    break
+                similarity = jeccard(block_ner[j], block_ner[k])
+                if similarity <= jeccard_threshold:
+                    jeccard_passed += 1
+                    continue
+                id1, id2 = block[j], block[k]
+                if id1 == 640306 and id2 == 1041786:
+                    print(f'JECCARD :{similarity} {id2}')
+                if id2 > id1:
+                    candidate_pairs_real_ids.add(((id1, id2), similarity))
+                else:
+                    candidate_pairs_real_ids.add(((id2, id1), similarity))
+    print(f'SORTING NEIGHBORS TIME: {time.time() - s}')
+    candidate_pairs_real_ids = sorted(candidate_pairs_real_ids, key=lambda x: x[1], reverse=True)
+    return candidate_pairs_real_ids
+
+
+def block_with_attr_X2(X: DataFrame,  jeccard_threshold, jeccard_tolerance):
+    s = time.time()
+    X['NER'] = X['name'].parallel_apply(apply_ner)
+    print(f'NER TIME : {time.time() - s}')
+    # NERs are sorted in ASC order
+    X['NER_TEXT'] = X['NER'].parallel_apply(lambda x: ' '.join(x))
+    # sort NERs in DESC order
+    X['NER_TEXT_REV'] = X['NER'].parallel_apply(lambda x: ' '.join(x[::-1]))
+    X['NER_TEXT_MID'] = X['NER'].parallel_apply(
+        lambda x: ' '.join(get_close_matches(x[len(x) // 2], x, cutoff=0, n=len(x))))
+    # X['NER_SIZE'] = X['NER'].parallel_apply(len)
+    candidate_pairs_real_ids = set()
+    s = time.time()
+    for op in range(3):
+        if op == 0:
+            X = X.sort_values(by=['NER_TEXT'])
+        if op == 1:
+            X = X.sort_values(by=['NER_TEXT_REV'])
+        if op == 2:
+            X = X.sort_values(by=['NER_TEXT_MID'])
+        # if op == 2:
+        #     X = X.sort_values(by=['NER_SIZE'])
+        block = X['id'].values
+        block_ner = [set(n) for n in X['NER'].values]
+        for j in range(len(block)):
+            jeccard_passed = 0
+            for k in range(j + 1, len(block)):
+                if jeccard_passed > jeccard_tolerance:
+                    break
+                similarity = jeccard(block_ner[j], block_ner[k])
+                if similarity < jeccard_threshold:
+                    jeccard_passed += 1
+                    continue
+                id1, id2 = block[j], block[k]
+                if id2 > id1:
+                    candidate_pairs_real_ids.add(((id1, id2), similarity))
+                else:
+                    candidate_pairs_real_ids.add(((id2, id1), similarity))
+    print(f'SORTING NEIGHBORS TIME: {time.time() - s}')
+    candidate_pairs_real_ids = sorted(candidate_pairs_real_ids, key=lambda x: x[1], reverse=True)
+    return [p[0] for p in candidate_pairs_real_ids]
 
 
 def block_with_attr(X: DataFrame, attr, jeccard_threshold, jeccard_tolerance):
@@ -154,6 +249,8 @@ def compute_precision(X, Y):
     for pair in X:
         if pair in st:
             c += 1
+        # else:
+        #     print(pair)
     return c / len(X)
 
 
@@ -169,7 +266,29 @@ def compute_recall(X, Y):
     return c / len(Y)
 
 
-if __name__ == "__main__":
+def eval():
+    X1 = pd.read_csv("X1.csv")
+    Y1 = pd.read_csv("Y1.csv")
+    res = block_with_attr_eval(X1, 'title', .5, 10)
+    ranges = [i / 10 for i in range(0, 11)]
+    buckets = [list() for _ in range(11)]
+    for val in res:
+        for r in range(len(ranges) - 1):
+            if ranges[r] < val[1] <= ranges[r + 1]:
+                buckets[r].append(val)
+    for r, b in zip(ranges, buckets):
+        vals = [v[0] for v in b]
+        if len(b) > 0:
+            print(r, len(b), compute_recall(vals, Y1), compute_precision(vals, Y1))
+    vals = [v[0] for v in res]
+    print(f'TOTAL RECALL : {compute_recall(vals, Y1)} TOTAL PRECISION: {compute_precision(vals, Y1)}')
+    # r = [v[0] for v in res if v[0][0] == 1041786 or v[0][1] == 1041786]
+    # print(len(r))
+    # Y1 = Y1.loc[(Y1["lid"] == 1041786) | (Y1["rid"] == 1041786)]
+    # print(f'TOTAL RECALL : {compute_recall(r, Y1.reset_index())} TOTAL PRECISION: {compute_precision(r, Y1)}')
+
+
+def run():
     s = time.time()
     # read the datasets
     X1 = pd.read_csv("X1.csv")
@@ -194,3 +313,7 @@ if __name__ == "__main__":
         f'X1 Recall: {round(compute_recall(X1_candidate_pairs, Y1), 3)} PRECISION: {round(compute_precision(X1_candidate_pairs, Y1), 3)}')
     print(
         f'X2 Recall: {round(compute_recall(X2_candidate_pairs, Y2), 3)} PRECISION: {round(compute_precision(X2_candidate_pairs, Y2), 3)}')
+
+
+if __name__ == "__main__":
+    run()
