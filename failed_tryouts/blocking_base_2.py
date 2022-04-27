@@ -170,8 +170,8 @@ if __name__ == "__main__":
     # save results
     save_output(X1_candidate_pairs, X2_candidate_pairs)
     # print(time.time() - s)
-    # rc1 = compute_recall(X1_candidate_pairs, pd.read_csv("Y1.csv"))
-    # print(f'X1 Recall: {rc1}')
-    # rc2 = compute_recall(X2_candidate_pairs, pd.read_csv("Y2.csv"))
-    # print(f'X2 Recall: {rc2}')
-    # print(f'Average Recall: {rc1 * 1 / 3 + rc2 * 2 / 3}')
+    rc1 = compute_recall(X1_candidate_pairs, pd.read_csv("../Y1.csv"))
+    print(f'X1 Recall: {rc1}')
+    rc2 = compute_recall(X2_candidate_pairs, pd.read_csv("../Y2.csv"))
+    print(f'X2 Recall: {rc2}')
+    print(f'Average Recall: {rc1 * 1 / 3 + rc2 * 2 / 3}')

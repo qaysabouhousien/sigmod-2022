@@ -1,0 +1,6 @@
+spacy
+pandas
+numpy
+jmespath
+openpyxl
+sklearn

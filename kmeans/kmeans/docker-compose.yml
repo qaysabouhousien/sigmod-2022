@@ -1,0 +1,7 @@
+version: "3.9"
+services:
+  kmeans:
+    build: .
+    volumes:
+      - ./data:/mnt/files
+    restart: 'no'
