@@ -106,9 +106,23 @@ def save_tokens(X):
 
 
 # gb_pattern = re.compile(r'([\d]+)\s?[a-zA-Z]+')
-gb_pattern = re.compile(r'([\d]+)\s?(?:gb|GB)')
+gb_pattern = re.compile(r'([\d]+)\s?g[ob]', re.IGNORECASE)
 # pattern_2 = re.compile(r"\w+\s\w+\d+")
 pattern_2 = re.compile(r'[a-zA-Z]+\d+')
+
+size_pattern = re.compile(r'([\d]+)\s?(kb|mb|gb|tb|KB|MB|GB|TB)')
+
+
+def size_extractor(text):
+    tuples = size_pattern.findall(text)
+    defs = {'KB': 1024, 'MB': 1024 ** 2, 'GB': 1024 ** 3, 'TB': 1024 ** 4}
+    unique = set()
+    for t in tuples:
+        val = t[0]
+        unit = t[1].upper()
+        gbs = str((float(val) * defs[unit])/(defs['GB']))
+        unique.add(gbs)
+    return unique
 
 
 def block_X2(X: DataFrame, jeccard_lower_threshold, jeccard_tolerance, max_block_size, min_token_length,
@@ -120,13 +134,14 @@ def block_X2(X: DataFrame, jeccard_lower_threshold, jeccard_tolerance, max_block
     s = time.time()
     X['GBs'] = X['name'].parallel_apply(lambda x: set(gb_pattern.findall(x)))
     X['p2'] = X['name'].parallel_apply(find_p2)
+    X['p2_text'] = X['p2'].parallel_apply(lambda x: ' '.join(sorted(x)))
     print(f'FINDING PATTERNS TIME: {time.time() - s}')
     X['GBs_text'] = X['GBs'].parallel_apply(lambda x: ' '.join(sorted(x)))
     X['NER_TEXT'] = X['NER'].parallel_apply(lambda x: ' '.join(x))
     X['NER_TEXT_ASC'] = X['NER'].parallel_apply(lambda x: ' '.join(sorted(x)))
     X['NER_TEXT_REV'] = X['NER'].parallel_apply(lambda x: ' '.join(sorted(x, reverse=True)))
     X['NER_TEXT_MID'] = X['NER'].parallel_apply(lambda x: ' '.join(sort_from_mid(x)))
-    sort_by_columns = ['NER_TEXT', 'NER_TEXT_ASC', 'NER_TEXT_REV', 'NER_TEXT_MID', 'GBs_text']
+    sort_by_columns = ['NER_TEXT', 'NER_TEXT_ASC', 'NER_TEXT_REV', 'NER_TEXT_MID', 'GBs_text', 'p2_text']
     return block_dataset_2(X, sort_by_columns, max_block_size, jeccard_tolerance, jeccard_lower_threshold)
 
 
@@ -157,7 +172,7 @@ def block_X1(X: DataFrame, jeccard_lower_threshold, jeccard_tolerance, max_block
 def block_dataset(X, sort_by_columns, max_block_size, jeccard_tolerance, jeccard_threshold):
     s = time.time()
     normal_sim_prop = 1
-    p2_prop = .2
+    p2_prop = .25
     normal_sim_prop -= p2_prop
     candidate_pairs_real_ids = set()
     for column in sort_by_columns:
@@ -184,7 +199,7 @@ def block_dataset(X, sort_by_columns, max_block_size, jeccard_tolerance, jeccard
                 candidate_pairs_real_ids.add((pair, similarity))
                 block_size += 1
             found_ratio = block_size / max_block_size
-            thres = 0.05
+            thres = 0.1
             if found_ratio > thres:
                 max_block_size = min(200, max_block_size + int(found_ratio * max_block_size))
             else:
@@ -227,12 +242,12 @@ def block_dataset_2(X, sort_by_columns, max_block_size, jeccard_tolerance, jecca
                 pair = (id1, id2) if id2 > id1 else (id2, id1)
                 candidate_pairs_real_ids.add((pair, similarity))
                 block_size += 1
-            found_ratio = block_size/jeccard_tolerance
+            found_ratio = block_size / jeccard_tolerance
             thres = 0.05
             if found_ratio > thres:
                 jeccard_tolerance = min(200, jeccard_tolerance + found_ratio * jeccard_tolerance)
             else:
-                jeccard_tolerance = max(10,  jeccard_tolerance - (thres - found_ratio) * jeccard_tolerance)
+                jeccard_tolerance = max(10, jeccard_tolerance - (thres - found_ratio) * jeccard_tolerance)
     print(f'SORTING NEIGHBORS TIME: {time.time() - s}')
     candidate_pairs_real_ids = sorted(candidate_pairs_real_ids, key=lambda x: x[1], reverse=True)
     return [p[0] for p in candidate_pairs_real_ids]
@@ -351,6 +366,26 @@ def grid_search_X1():
         print(f'BEST WITHIN SIZE: {best_within_size} comp: {best_comp}')
 
 
+# def to_dict()
+#
+# def transitive(candidate_pairs):
+#     to_dict()
+#     ids = []
+#     for pair in candidate_pairs:
+#         left = pair[0]
+#         right = pair[1]
+#
+#
+#     # for pair in candidate_pairs:
+#     #     left = pair[0]
+#     #     right = pair[1]
+#     #     for pair2 in candidate_pairs:
+#     #         left2 = pair[0]
+#     #         right2 = pair[1]
+
+
+
+
 def run():
     s = time.time()
     # read the datasets
@@ -360,12 +395,12 @@ def run():
     #  ORACLES :::
     # X1_candidate_pairs = block_X1(X1, .111, 90, 172, 3, 90)
     # X2_candidate_pairs = block_X2(X2, .0, 0, 465, 1, 10)
-    X1_candidate_pairs = block_X1(X1, .3, 50, 24, 3, 90)
-    X2_candidate_pairs = block_X2(X2, .3, 50, 110, 1, 10)
+    X1_candidate_pairs = block_X1(X1, .38, 80, 80, 3, 90)
+    X2_candidate_pairs = block_X2(X2, .39, 80, 80, 1, 10)
 
     # save results
-    save_output(X1_candidate_pairs, X2_candidate_pairs)
-    # evaluate(X1_candidate_pairs, X2_candidate_pairs)
+    # save_output(X1_candidate_pairs, X2_candidate_pairs)
+    evaluate(X1_candidate_pairs, X2_candidate_pairs)
     e = time.time()
     print(f'TOTAL TIME : {e - s}')
 

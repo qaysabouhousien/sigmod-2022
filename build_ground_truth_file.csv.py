@@ -92,6 +92,26 @@ def not_found():
                 f.write(','.join(line) + "\n")
 
 
+def not_found_x1():
+    X = pd.read_csv('X1.csv')
+    Y = pd.read_csv('Y1.csv')
+    out = pd.read_csv('output.csv', nrows=1_000_001)
+    with open('not_found_x1.csv', 'w', encoding='utf-8') as f:
+        line = ['id', 'title', 'id_2', 'title_2']
+        line = [f"\"{c}\"" for c in line]
+        f.write(','.join(line) + "\n")
+        for i in range(Y.shape[0]):
+            l = Y['lid'][i]
+            r = Y['rid'][i]
+            if len(out[(out['left_instance_id'] == l) & (out['right_instance_id'] == r)]) == 0:
+                ll = X[X['id'] == l].iloc[0]
+                rr = X[X['id'] == r].iloc[0]
+                line = [ll['id'], ll['title']]
+                line += [rr['id'], rr['title']]
+                line = ["\""+str(c).replace("\"", "") + "\"" for c in line]
+                f.write(','.join(line) + "\n")
+
+
 def jeccard(s1: set, s2: set):
     intersection = intersection_cardinality(s1, s2)
     union = len(s1) + len(s2) - intersection
@@ -128,4 +148,4 @@ def analyze_not_found():
 
 
 if __name__ == '__main__':
-    analyze_not_found()
+    not_found_x1()
