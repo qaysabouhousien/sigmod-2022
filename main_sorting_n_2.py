@@ -109,6 +109,35 @@ gb_pattern = re.compile(r'([\d]+)\s?g[ob]', re.IGNORECASE)
 pattern_2 = re.compile(r'[a-zA-Z]+\d+')
 
 
+def find_pattern(text, pattern):
+    matches = pattern.findall(text)
+    distinct = set()
+    for m in matches:
+        distinct.add(m.lower())
+    return distinct
+
+
+# def buildSynonyms():
+#     synonyms_txt = {r"gb\.": "gb", r"in\.": "in", "inches": "in",
+#                 'minne': 'memory', 'mémoire': 'memory', 'memoria': 'memory', 'attaché': 'attache',
+#                 'speicherkarte': 'memory card', 'memóriakártya': 'memory card', 'clé ': 'cle ',
+#                 'micro vault': 'microvault', 'data traveler': 'datatraveler', 'micro SD': 'microsd', ' msd ': 'microsd ',
+#                 'hxs3': 'hyperx savage', 'hxsav': 'hyperx savage', 'hx savage': 'hyperx savage',
+#                 'typ ': 'type ', 'clase': 'class', 'classe': 'class'}
+#     patterns_r = dict()
+#     for s in synonyms_txt:
+#         patterns_r[re.compile(s, re.IGNORECASE)] = synonyms_txt[s]
+#     return patterns_r
+
+
+# synonyms = buildSynonyms()
+#
+# def handle_syn(text):
+#     for k in synonyms:
+#         text = k.sub(synonyms[k], text)
+#     return text
+
+
 def block_X2(X: DataFrame, jeccard_threshold, jeccard_tolerance, min_token_length, max_token_length):
     s = time.time()
     pattern = re.compile(r"&NBSP;|&nbsp;|\\n|&amp|[=+><()\[\]{}/\\_&#?;,]|\.{2,}")
@@ -122,20 +151,67 @@ def block_X2(X: DataFrame, jeccard_threshold, jeccard_tolerance, min_token_lengt
     X['tokens_text'] = X['tokens'].parallel_apply(lambda x: ' '.join(x))
     X['tokens_text_asc'] = X['tokens'].parallel_apply(lambda x: ' '.join(sorted(x)))
     X['tokens_text_desc'] = X['tokens'].parallel_apply(lambda x: ' '.join(sorted(x, reverse=True)))
-    X['tokens_text_asc_from_mid'] = X['tokens'].parallel_apply(lambda x: ' '.join(sort_from_mid(x)))
-    sort_by_columns = ['tokens_text', 'tokens_text_asc', 'tokens_text_desc', 'tokens_text_asc_from_mid', 'GBs_text']
+    # X['tokens_text_asc_from_mid'] = X['tokens'].parallel_apply(lambda x: ' '.join(sort_from_mid(x)))
+    sort_by_columns = ['tokens_text', 'tokens_text_asc', 'tokens_text_desc', 'GBs_text']
     return block_dataset_2(X, sort_by_columns, jeccard_tolerance, jeccard_threshold)
 
 
-def find_pattern(text, pattern):
-    matches = pattern.findall(text)
-    distinct = set()
-    for m in matches:
-        distinct.add(m.lower())
-    return distinct
+def block_dataset_2(X, sort_by_columns, jeccard_tolerance, jeccard_threshold):
+    """
+    :param X: dataframe to create blocks on
+    :param sort_by_columns: columns to sort the dataframe on
+    :param jeccard_tolerance: initial tolerance limit, how many non matching records(i.e. lower that jeccard_threshold)
+     are allowed before moving to the next iteration
+    :param jeccard_threshold: minimum threshold for jeccard similarity to consider a pair as candidate match
+    :return: list of record pairs that are considered as candidate matches
+    """
+    s = time.time()
+    candidate_pairs_real_ids = set()
+    # set how much each set's similarity matters by setting a proportion to each one.
+    normal_sim_prop = 1
+    gb_prop = .25
+    p2_prop = .08
+    normal_sim_prop -= (gb_prop + p2_prop)
+    for column in sort_by_columns:
+        X = X.sort_values(by=column)
+        block = [(n[0], set(n[1]), n[2], n[3]) for n in X[['id', 'tokens', 'GBs', 'p2']].values]
+        for i in range(len(block)):
+            jeccard_passed = 0
+            id1 = block[i][0]
+            current_block_ner = block[i][1]
+            current_block_ner_GBs = block[i][2]
+            current_block_ner_p2 = block[i][3]
+            block_size = 0
+            for j in range(i + 1, len(block)):
+                if jeccard_passed > jeccard_tolerance:
+                    break
+                similarity = jeccard(current_block_ner, block[j][1])
+                similarity_GBs = jeccard(current_block_ner_GBs, block[j][2])
+                similarity_p2 = jeccard(current_block_ner_p2, block[j][3])
+                similarity = similarity_GBs * gb_prop + similarity * normal_sim_prop + similarity_p2 * p2_prop
+                if similarity < jeccard_threshold:
+                    jeccard_passed += 1
+                    continue
+                id2 = block[j][0]
+                # order the pair by having the smaller id first.
+                pair = (id1, id2) if id2 > id1 else (id2, id1)
+                candidate_pairs_real_ids.add((pair, similarity))
+                block_size += 1
+            # auto adapting the jeccard tolerance size dependent on how many pairs were found in the current block.
+            # if the found_ratio is higher that threshold, then we increase the tolerance, otherwise, we decrease it.
+            found_ratio = block_size / jeccard_tolerance
+            threshold = 0.05
+            if found_ratio > threshold:
+                jeccard_tolerance = min(200, jeccard_tolerance + found_ratio * jeccard_tolerance)
+            else:
+                jeccard_tolerance = max(10, jeccard_tolerance - (threshold - found_ratio) * jeccard_tolerance)
+    print(f'SORTING NEIGHBORS TIME: {time.time() - s}')
+    # sorting by the similarity score to get the highest scores first.
+    candidate_pairs_real_ids = sorted(candidate_pairs_real_ids, key=lambda x: x[1], reverse=True)
+    return [p[0] for p in candidate_pairs_real_ids]
 
 
-def block_X1(X: DataFrame, jeccard_hreshold,  max_block_size, min_token_length, max_token_length):
+def block_X1(X: DataFrame, jeccard_hreshold, max_block_size, min_token_length, max_token_length):
     s = time.time()
     pattern = None
     X['tokens'] = X['title'].parallel_apply(lambda x: tokenize(x, min_token_length, max_token_length, pattern))
@@ -146,12 +222,20 @@ def block_X1(X: DataFrame, jeccard_hreshold,  max_block_size, min_token_length, 
     X['tokens_text'] = X['tokens'].parallel_apply(lambda x: ' '.join(x))
     X['tokens_text_asc'] = X['tokens'].parallel_apply(lambda x: ' '.join(sorted(x)))
     X['tokens_text_desc'] = X['tokens'].parallel_apply(lambda x: ' '.join(sorted(x, reverse=True)))
-    sort_by_columns = ['tokens_text', 'tokens_text_asc', 'tokens_text_desc', 'title', 'DIG_SUM', 'p2_text']
+    sort_by_columns = ['tokens_text', 'tokens_text_asc', 'tokens_text_desc', 'title', 'p2_text', 'DIG_SUM']
     return block_dataset(X, sort_by_columns, max_block_size, jeccard_hreshold)
 
 
 def block_dataset(X, sort_by_columns, max_block_size, jeccard_threshold):
+    """
+    :param X: dataframe to create blocks on
+    :param sort_by_columns: columns to sort the dataframe on
+    :param max_block_size: initial max_block_size
+    :param jeccard_threshold: minimum threshold for jeccard similarity to consider a pair as candidate match
+    :return:
+    """
     s = time.time()
+    # set how much each set's similarity matters by setting a proportion to each one.
     normal_sim_prop = 1
     p2_prop = .25
     normal_sim_prop -= p2_prop
@@ -177,6 +261,8 @@ def block_dataset(X, sort_by_columns, max_block_size, jeccard_threshold):
                 pair = (id1, id2) if id2 > id1 else (id2, id1)
                 candidate_pairs_real_ids.add((pair, similarity))
                 block_size += 1
+            # auto adapting the max block size dependent on how many pairs were found in the current block.
+            # if the found_ratio is higher that threshold, then we enlarge the size, otherwise, we shrink it.
             found_ratio = block_size / max_block_size
             thres = 0.05
             if found_ratio > thres:
@@ -185,49 +271,7 @@ def block_dataset(X, sort_by_columns, max_block_size, jeccard_threshold):
                 max_block_size = max(10, max_block_size - int((thres - found_ratio) * max_block_size))
 
     print(f'SORTING NEIGHBORS TIME: {time.time() - s}')
-    candidate_pairs_real_ids = sorted(candidate_pairs_real_ids, key=lambda x: x[1], reverse=True)
-    return [p[0] for p in candidate_pairs_real_ids]
-
-
-def block_dataset_2(X, sort_by_columns, jeccard_tolerance, jeccard_threshold):
-    s = time.time()
-    candidate_pairs_real_ids = set()
-    normal_sim_prop = 1
-    gb_prop = .2
-    p2_prop = .1
-    normal_sim_prop -= gb_prop
-    normal_sim_prop -= p2_prop
-    for column in sort_by_columns:
-        X = X.sort_values(by=column)
-        block = [(n[0], set(n[1]), n[2], n[3]) for n in X[['id', 'tokens', 'GBs', 'p2']].values]
-        for i in range(len(block)):
-            jeccard_passed = 0
-            id1 = block[i][0]
-            current_block_ner = block[i][1]
-            current_block_ner_GBs = block[i][2]
-            current_block_ner_p2 = block[i][3]
-            block_size = 0
-            for j in range(i + 1, len(block)):
-                if jeccard_passed > jeccard_tolerance:
-                    break
-                similarity = jeccard(current_block_ner, block[j][1])
-                similarity_GBs = jeccard(current_block_ner_GBs, block[j][2])
-                similarity_p2 = jeccard(current_block_ner_p2, block[j][3])
-                similarity = similarity_GBs * gb_prop + similarity * normal_sim_prop + similarity_p2 * p2_prop
-                if similarity < jeccard_threshold:
-                    jeccard_passed += 1
-                    continue
-                id2 = block[j][0]
-                pair = (id1, id2) if id2 > id1 else (id2, id1)
-                candidate_pairs_real_ids.add((pair, similarity))
-                block_size += 1
-            found_ratio = block_size / jeccard_tolerance
-            thres = 0.05
-            if found_ratio > thres:
-                jeccard_tolerance = min(200, jeccard_tolerance + found_ratio * jeccard_tolerance)
-            else:
-                jeccard_tolerance = max(10, jeccard_tolerance - (thres - found_ratio) * jeccard_tolerance)
-    print(f'SORTING NEIGHBORS TIME: {time.time() - s}')
+    # sorting by the similarity score to get the highest scores first.
     candidate_pairs_real_ids = sorted(candidate_pairs_real_ids, key=lambda x: x[1], reverse=True)
     return [p[0] for p in candidate_pairs_real_ids]
 
@@ -321,21 +365,21 @@ def grid_search_X2():
 
 
 def grid_search_X1():
-    # .25, .40, 75, 15, 3, 100
-    jeccard_low = [(i / 100) + 0.23 for i in range(5)]
-    jeccard_tolerance = [i * 10 + 55 for i in range(5)]
-    max_block_size = [i + 13 for i in range(5)]
-    min_token_length = [i + 2 for i in range(3)]
-    max_token_length = [i * 10 + 90 for i in range(3)]
+    # X1, .38, 200, 3, 90)
+    # jeccard_hreshold, max_block_size, min_token_length, max_token_length
+    jeccard_low = [(i / 100) + 0.1 for i in range(50)]
+    max_block_size = [i + 200 for i in range(1)]
+    min_token_length = [i + 3 for i in range(1)]
+    max_token_length = [i + 90 for i in range(1)]
     grid = list(itertools.product(
-        *[jeccard_low, jeccard_tolerance, max_block_size, min_token_length, max_token_length]))
+        *[jeccard_low, max_block_size, min_token_length, max_token_length]))
     print(len(grid))
     best_within_size = 0
     best_comp = []
     for i, comp in enumerate(grid):
         X1 = pd.read_csv("X1.csv")
         Y1 = pd.read_csv("Y1.csv")
-        candidate_pairs = block_X1(X1, comp[0], comp[1], comp[2], comp[3], comp[4])
+        candidate_pairs = block_X1(X1, comp[0], comp[1], comp[2], comp[3])
         eval_res = eval_dataset(candidate_pairs, Y1, 'X1')
         within_size_recall = eval_res[1]
         if within_size_recall > best_within_size:
@@ -388,7 +432,7 @@ def run():
     # X1_candidate_pairs = block_X1(X1, .111, 90, 172, 3, 90)
     # X2_candidate_pairs = block_X2(X2, .0, 0, 465, 1, 10)
     X1_candidate_pairs = block_X1(X1, .38, 200, 3, 90)
-    X2_candidate_pairs = block_X2(X2, .39, 200, 1, 10)
+    X2_candidate_pairs = block_X2(X2, .40, 200, 1, 10)
     # save results
     # save_output(X1_candidate_pairs, X2_candidate_pairs)
     evaluate(X1_candidate_pairs, X2_candidate_pairs)
@@ -398,4 +442,3 @@ def run():
 
 if __name__ == "__main__":
     run()
-    # highest_count()
