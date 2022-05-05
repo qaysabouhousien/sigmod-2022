@@ -48,6 +48,28 @@ def save_true():
             f.write(','.join(line) + "\n")
 
 
+def false_positive_X1():
+    X = pd.read_csv('X1.csv')
+    Y = pd.read_csv('Y1.csv')
+    out = pd.read_csv('output.csv', nrows=1_000_001)
+    with open('false_positive_x1.csv', 'w', encoding='utf-8') as f:
+        line = ['id', 'title', 'id_2', 'title_2']
+        line = [f"\"{c}\"" for c in line]
+        f.write(','.join(line) + "\n")
+        for i in range(out.shape[0]):
+            l = out['left_instance_id'][i]
+            if l == 0:
+                break
+            r = out['right_instance_id'][i]
+            if len(Y[(Y['lid'] == l) & (Y['rid'] == r)]) == 0:
+                ll = X[X['id'] == l].iloc[0]
+                rr = X[X['id'] == r].iloc[0]
+                line = [ll['id'], ll['title']]
+                line += [rr['id'], rr['title']]
+                line = [f"\"{c}\"" for c in line]
+                f.write(','.join(line) + "\n")
+
+
 def false_positive():
     X = pd.read_csv('X2.csv')
     Y = pd.read_csv('Y2.csv')
@@ -148,4 +170,4 @@ def analyze_not_found():
 
 
 if __name__ == '__main__':
-    not_found_x1()
+    false_positive_X1()
