@@ -17,7 +17,7 @@ pandarallel.initialize(progress_bar=False, use_memory_fs=False)
 ner = spacy.load("en_core_web_sm", disable=['parser', 'tok2vec', 'ner'])
 
 
-def apply_ner(text, min_length=1, max_length=50, token_separators_pattern=None):
+def tokenize(text, min_length=1, max_length=50, token_separators_pattern=None):
     if type(text) != str:
         return []
     if len(text) < min_length:
@@ -72,19 +72,19 @@ def block_X2(X: DataFrame, jeccard_lower_threshold, jeccard_tolerance, max_block
              max_token_length):
     s = time.time()
     pattern = re.compile(r"&NBSP;|&nbsp;|\\n|&amp|[=+><()\[\]{}/\\_&#?;,]|\.{2,}")
-    X['NER'] = X['name'].parallel_apply(lambda x: apply_ner(x, min_token_length, max_token_length, pattern))
-    print(f'NER TIME : {time.time() - s}')
+    X['tokens'] = X['name'].parallel_apply(lambda x: tokenize(x, min_token_length, max_token_length, pattern))
+    print(f'TOKENIZATION TIME : {time.time() - s}')
     s = time.time()
     X['GBs'] = X['name'].parallel_apply(lambda x: set(gb_pattern.findall(x)))
     X['p2'] = X['name'].parallel_apply(find_p2)
     X['p2_text'] = X['p2'].parallel_apply(lambda x: ' '.join(sorted(x)))
     print(f'FINDING PATTERNS TIME: {time.time() - s}')
     X['GBs_text'] = X['GBs'].parallel_apply(lambda x: ' '.join(sorted(x)))
-    X['NER_TEXT'] = X['NER'].parallel_apply(lambda x: ' '.join(x))
-    X['NER_TEXT_ASC'] = X['NER'].parallel_apply(lambda x: ' '.join(sorted(x)))
-    X['NER_TEXT_REV'] = X['NER'].parallel_apply(lambda x: ' '.join(sorted(x, reverse=True)))
-    X['NER_TEXT_MID'] = X['NER'].parallel_apply(lambda x: ' '.join(sort_from_mid(x)))
-    sort_by_columns = ['NER_TEXT', 'NER_TEXT_ASC', 'NER_TEXT_REV', 'NER_TEXT_MID', 'GBs_text', 'p2_text']
+    X['TOKENS_TEXT'] = X['tokens'].parallel_apply(lambda x: ' '.join(x))
+    X['TOKENS_TEXT_ASC'] = X['tokens'].parallel_apply(lambda x: ' '.join(sorted(x)))
+    X['TOKENS_TEXT_REV'] = X['tokens'].parallel_apply(lambda x: ' '.join(sorted(x, reverse=True)))
+    X['TOKENS_TEXT_MID'] = X['tokens'].parallel_apply(lambda x: ' '.join(sort_from_mid(x)))
+    sort_by_columns = ['TOKENS_TEXT', 'TOKENS_TEXT_ASC', 'TOKENS_TEXT_REV', 'TOKENS_TEXT_MID', 'GBs_text', 'p2_text']
     return block_dataset_2(X, sort_by_columns, max_block_size, jeccard_tolerance, jeccard_lower_threshold)
 
 
@@ -100,15 +100,15 @@ def block_X1(X: DataFrame, jeccard_lower_threshold, jeccard_tolerance, max_block
              max_token_length):
     s = time.time()
     pattern = None
-    X['NER'] = X['title'].parallel_apply(lambda x: apply_ner(x, min_token_length, max_token_length, pattern))
-    print(f'NER TIME : {time.time() - s}')
+    X['tokens'] = X['title'].parallel_apply(lambda x: tokenize(x, min_token_length, max_token_length, pattern))
+    print(f'TOKENIZATION TIME : {time.time() - s}')
     X['p2'] = X['title'].parallel_apply(find_p2)
     X['p2_text'] = X['p2'].parallel_apply(lambda x: ' '.join(sorted(x)))
-    X['DIG_SUM'] = X['NER'].parallel_apply(lambda x: sum([int(d) for d in x if digs_pattern.fullmatch(d)]))
-    X['NER_TEXT'] = X['NER'].parallel_apply(lambda x: ' '.join(x))
-    X['NER_TEXT_ASC'] = X['NER'].parallel_apply(lambda x: ' '.join(sorted(x)))
-    X['NER_TEXT_REV'] = X['NER'].parallel_apply(lambda x: ' '.join(sorted(x, reverse=True)))
-    sort_by_columns = ['NER_TEXT', 'NER_TEXT_ASC', 'NER_TEXT_REV', 'title', 'DIG_SUM', 'p2_text']
+    X['DIG_SUM'] = X['tokens'].parallel_apply(lambda x: sum([int(d) for d in x if digs_pattern.fullmatch(d)]))
+    X['TOKENS_TEXT'] = X['tokens'].parallel_apply(lambda x: ' '.join(x))
+    X['TOKENS_TEXT_ASC'] = X['tokens'].parallel_apply(lambda x: ' '.join(sorted(x)))
+    X['TOKENS_TEXT_REV'] = X['tokens'].parallel_apply(lambda x: ' '.join(sorted(x, reverse=True)))
+    sort_by_columns = ['TOKENS_TEXT', 'TOKENS_TEXT_ASC', 'TOKENS_TEXT_REV', 'title', 'DIG_SUM', 'p2_text']
     return block_dataset(X, sort_by_columns, max_block_size, jeccard_tolerance, jeccard_lower_threshold)
 
 
@@ -120,7 +120,7 @@ def block_dataset(X, sort_by_columns, max_block_size, jeccard_tolerance, jeccard
     candidate_pairs_real_ids = set()
     for column in sort_by_columns:
         X = X.sort_values(by=column)
-        block = [(n[0], set(n[1]), n[2]) for n in X[['id', 'NER', 'p2']].values]
+        block = [(n[0], set(n[1]), n[2]) for n in X[['id', 'tokens', 'p2']].values]
         for i in range(len(block)):
             jeccard_passed = 0
             id1 = block[i][0]
@@ -162,7 +162,7 @@ def block_dataset_2(X, sort_by_columns, max_block_size, jeccard_tolerance, jecca
     normal_sim_prop -= p2_prop
     for column in sort_by_columns:
         X = X.sort_values(by=column)
-        block = [(n[0], set(n[1]), n[2], n[3]) for n in X[['id', 'NER', 'GBs', 'p2']].values]
+        block = [(n[0], set(n[1]), n[2], n[3]) for n in X[['id', 'tokens', 'GBs', 'p2']].values]
         for i in range(len(block)):
             jeccard_passed = 0
             id1 = block[i][0]
