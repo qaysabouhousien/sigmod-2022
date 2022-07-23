@@ -1,10 +1,35 @@
 import time
 from difflib import get_close_matches
 import pandas as pd
+import spacy
+import unidecode
+from functools import lru_cache
 
-from algorithms import sn, dsc, tolerance, sn_jaccard, dsc_jeccard, tolerance_jeccard, tokenize
+from algorithms import sn, dsc, tolerance
 from evaluate import eval_dataset
-from read_cora import read_y
+
+nlp = spacy.load("en_core_web_md", disable=['parser', 'tok2vec', 'ner'])
+
+
+@lru_cache(maxsize=None)
+def tokenize(text, min_length=1, token_separators_pattern=None):
+    if type(text) != str:
+        return []
+    if len(text) < min_length:
+        return []
+    text = unidecode.unidecode(text)
+    if token_separators_pattern:
+        text = token_separators_pattern.sub(' ', text)
+    entities = nlp(text)
+    entities_text = list()
+    pos = ['NOUN', 'PROPN']
+    for entity in entities:
+        if entity.pos_ not in pos or entity.is_stop:
+            continue
+        lower = entity.lemma_.lower().strip()
+        if min_length < len(lower):
+            entities_text.append(lower)
+    return entities_text
 
 
 def jeccard(s1: set, s2: set):
@@ -39,6 +64,7 @@ def sort_from_mid(x: []):
 
 
 def block_dataset(X, sort_by_columns, jeccard_threshold):
+    s = time.time()
     candidate_pairs_real_ids = set()
     max_block_size = 1000
     comparisons = 0
@@ -69,8 +95,10 @@ def block_dataset(X, sort_by_columns, jeccard_threshold):
                 max_block_size = min(200, max_block_size + int(found_ratio * max_block_size))
             else:
                 max_block_size = max(10, max_block_size - int((thres - found_ratio) * max_block_size))
+    print(f'SORTING NEIGHBORS TIME: {time.time() - s}')
+    print(f'NUMBER OF Comparrisions: {comparisons}')
     candidate_pairs_real_ids = sorted(candidate_pairs_real_ids, key=lambda x: x[1], reverse=True)
-    return [p[0] for p in candidate_pairs_real_ids], comparisons
+    return [p[0] for p in candidate_pairs_real_ids]
 
 
 def block_dataset_2(X, sort_by_columns, jeccard_threshold):
@@ -111,16 +139,21 @@ def block_dataset_2(X, sort_by_columns, jeccard_threshold):
     return [p[0] for p in candidate_pairs_real_ids]
 
 
-def run_perfect():
-    X = pd.read_csv("cora.csv")
-    Y = read_y()
-    s = time.time()
+def read_y(X):
+    grouped = X.groupby('class')['id'].apply(list)
+    grouped = grouped[grouped.apply(lambda x: len(x) > 1)].to_frame()
+    grouped['lid'] = grouped['id'].apply(lambda x: x[0])
+    grouped['rid'] = grouped['id'].apply(lambda x: x[1])
+    grouped = grouped.reset_index().drop(columns=['class', 'id'])
+    return grouped
+
+
+def run():
+    X = pd.read_csv("data/restaurant.original.csv")
+    X['id'] = X.index
+    Y = read_y(X)
     ySet = {frozenset(v) for v in Y.values}
-    X['tokens'] = X['title'].apply(tokenize)
-    print(f'TOKENIZATION TIME : {time.time() - s}')
-    X['TOKENS_TEXT_REV'] = X['tokens'].apply(lambda x: ' '.join(sorted(x, reverse=True)))
-    X['TOKENS_TEXT_MID'] = X['tokens'].apply(lambda x: ' '.join(sort_from_mid(x)))
-    sort_by_columns = ['TOKENS_TEXT_REV', 'TOKENS_TEXT_MID', 'author', 'title', 'publisher', 'year']
+    sort_by_columns = ['name', 'addr']
     for w in range(2, 250):
         X_candidate_pairs, sn_comps = sn(X, sort_by_columns, w, ySet)
         sn_r, _, __ = eval_dataset(X_candidate_pairs, Y)
@@ -130,36 +163,7 @@ def run_perfect():
         X_candidate_pairs, tol_comps = tolerance(X, sort_by_columns, w, ySet)
         tol_r, _, __ = eval_dataset(X_candidate_pairs, Y)
         print(f' W={w}, SN=({sn_comps}:{sn_r:.2f}), DSC=({dsc_comps}:{dsc_r:.2f}), TOL=({tol_comps}:{tol_r:.2f})')
-        # print("********************* ADAPTIVE *********************")
-        # X_candidate_pairs = adaptive(X, sort_by_columns, ySet)
-        # eval_dataset(X_candidate_pairs, Y, 'X')
-
-
-def run_imperfect():
-    X = pd.read_csv("cora.csv")
-    Y = read_y()
-    s = time.time()
-    X['tokens'] = X['title'].apply(tokenize)
-    print(f'TOKENIZATION TIME : {time.time() - s}')
-    X['TOKENS_TEXT_ASC'] = X['tokens'].apply(lambda x: ' '.join(sorted(x)))
-    X['TOKENS_TEXT_DESC'] = X['tokens'].apply(lambda x: ' '.join(sorted(x, reverse=True)))
-    sort_by_columns = ['TOKENS_TEXT_ASC', 'TOKENS_TEXT_DESC', 'author', 'title', 'publisher', 'year']
-    # jaccard_threshold = .4
-    w = 50
-    print(
-        'threshold,SN_COMPS,SN_RECALL,SN_PRECISION,DSC_COMPS,DSC_RECALL,DSC_PRECISION,TOL_COMPS,TOL_RECALL,TOL_PRECISION')
-    for i in range(3, 11):
-        jaccard_threshold = 0.1 * i
-        X_candidate_pairs, sn_comps = sn_jaccard(X, sort_by_columns, w, jaccard_threshold)
-        sn_r, _, sn_p = eval_dataset(X_candidate_pairs, Y)
-        th = 1 / (w - 1)
-        X_candidate_pairs, dsc_comps = dsc_jeccard(X, sort_by_columns, w, th, jaccard_threshold)
-        dsc_r, _, dsc_p = eval_dataset(X_candidate_pairs, Y)
-        X_candidate_pairs, tol_comps = tolerance_jeccard(X, sort_by_columns, w, jaccard_threshold)
-        tol_r, _, tol_p = eval_dataset(X_candidate_pairs, Y)
-        print(
-            f'{jaccard_threshold:.1f},{sn_comps},{sn_r:.2f},{sn_p:.2f},{dsc_comps},{dsc_r:.2f},{dsc_p:.2f},{tol_comps},{tol_r:.2f},{tol_p}')
 
 
 if __name__ == "__main__":
-    run_imperfect()
+    run()
